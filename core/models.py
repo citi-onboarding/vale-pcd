@@ -16,7 +16,7 @@ class Relatos(models.Model):
 
 
 class QuemSomos(SingletonModel):
-    descricao = models.TextField('Descrição', max_length=400 ")
+    descricao = models.TextField('Descrição', max_length=400)
     subtitulo = models.CharField('Frase inicial',max_length=100,help_text="Frase inicial que ficará em destaque")
     imagem = models.ImageField(upload_to='quemSomos/', verbose_name='Imagem')
 
