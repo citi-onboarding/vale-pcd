@@ -15,9 +15,9 @@ class Relatos(models.Model):
         return self.name
 
 class QuemSomos(SingletonModel):
-    descricao = models.TextField('Descrição', max_length=400,help_text="Descrição da seção: 'Quem somos' ")
-    subtitulo = models.CharField('Frase inicial',max_length=100,help_text="Frase inicial que ficará em destaque")
-    imagem = models.ImageField(upload_to='quemSomos/', verbose_name='Imagem',help_text="Imagem que ficará na seção: 'Quem Somos' ")
+    descricao = models.TextField('Descrição', max_length=400)
+    destaque = models.CharField('Frase em destaque',max_length=100,help_text="Frase que ficará em destaque, podendo ser ou não uma frase da descrição")
+    imagem = models.ImageField(upload_to='quemSomos/', verbose_name='Imagem')
 
 
     #Usado para ajustar o plural
