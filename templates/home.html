@@ -1,20 +1,53 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Django</title>
+    <title>Vale PCD</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css\home.css' %}">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css\navbar.css' %}">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css\quemsomos.css' %}">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css\relatos.css' %}">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css\footer.css' %}">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css\contato.css' %}">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'css\banner.css' %}">
     <script src="{% static 'js/main.js' %}"></script>
 </head>
 
 
 <body>
 
-        <h1> OK </h1>
+    <h1> OK </h1>
 
-        <h2> {% include 'navbar.html' %} </h2>
+
+    <!-- navbar -->
+    {% include 'navbar.html' %}
+
+    <main>
+
+        <!--  Banner -->
+        {% include 'banner.html' %}
+
+        <!-- quem somos -->
+        {% include 'quemsomos.html' %}
+
+        <!-- relatos -->
+        {% include 'relatos.html' %}
+
+        <!-- contato -->
+        {% include 'contato.html' %}
+
+    </main>
+
+    <!-- footer -->
+    {% include 'footer.html' %}
+
+
+
+
 </body>
+
 </html>
