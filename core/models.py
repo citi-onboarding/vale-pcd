@@ -2,10 +2,10 @@ from django.db import models
 from solo.models import SingletonModel
 
 class Relatos(models.Model):
-    name = models.CharField('Nome', max_length=65, help_text="Insira o nome.")
+    name = models.CharField('Nome', max_length=100)
     description = models.CharField('Texto curto', max_length = 100, help_text="Insira uma breve descrição sobre a pessoa do relato.")
-    story = models.TextField('Relato',max_length=400, help_text="Insira o relato aqui.")
-    image = models.ImageField(upload_to='relatos/', verbose_name='Imagem', null=True, blank=True, help_text="Insira uma imagem sobre a pessoa.")
+    story = models.TextField('Relato',max_length=400)
+    image = models.ImageField(upload_to='relatos/', verbose_name='Foto', null=True, blank=True)
     class Meta:
         ordering = ['name']
         verbose_name = 'Relato'
@@ -14,7 +14,6 @@ class Relatos(models.Model):
     def __str__(self):
         return self.name
 
-      
 class QuemSomos(SingletonModel):
     descricao = models.TextField('Descrição', max_length=400,help_text="Descrição da seção: 'Quem somos' ")
     subtitulo = models.CharField('Frase inicial',max_length=100,help_text="Frase inicial que ficará em destaque")
