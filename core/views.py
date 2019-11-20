@@ -16,6 +16,7 @@ class HomeView(generic.TemplateView):
         context["QuemSomos"] = QuemSomos.objects.first()
         return context
 
+
 def index(request):
     return render(request, 'home.html')
 
@@ -23,12 +24,16 @@ def index(request):
 def email(request):
     nome = request.POST.get('nome')
     email = request.POST.get('email')
-    assunto= request.POST.get('assunto')
+    assunto = request.POST.get('assunto')
     mensagem = request.POST.get('mensagem')
 
-   #corpo do email
+   # corpo do email
     corpoEmail = f'Nome: {nome}\n Assunto: {assunto}\n Email: {email}\n Mensagem: {mensagem}'
 
     """ O primeiro email é o que envia e o segundo é o que recebe """
-    mail = EmailMessage(assunto,corpoEmail,'valepcd.site@gmail.com',['valepcd.site@gmail.com'])
+    mail = EmailMessage(assunto, corpoEmail, 'valepcd.site@gmail.com', [
+                        'valepcd.site@gmail.com'])
     result = mail.send()
+    if (result):
+        return HttpResponse("success")
+        return HttpResponse("error")
