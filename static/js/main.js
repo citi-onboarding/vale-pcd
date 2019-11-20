@@ -7,9 +7,9 @@ $('#contact-form').submit(function(e){
  const assunto=$('input[name=assunto').val();
  const mensagem=$('input[name=mensagem').val();
  const token = jQuery("[name=csrfmiddlewaretoken]").val();
- 
+
  alert(token);
- 
+
  $.ajax({
      type: 'POST',
      url: '/contato',
@@ -27,5 +27,5 @@ $('#contact-form').submit(function(e){
          alert("Erro ao enviar email")
      }
  })
- 
+
  });
