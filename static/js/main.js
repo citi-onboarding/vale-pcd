@@ -3,7 +3,7 @@
 $('#contact-form').submit(function(e){
 
 
-        document.getElementById("enviar").value = 'Enviando Mensagem';
+    document.getElementById("enviar").value = 'Enviando Mensagem';
 
 
     e.preventDefault();
@@ -25,11 +25,12 @@ $('#contact-form').submit(function(e){
      'mensagem':mensagem
      },
      success: function(data){
-        alert('Email Enviado')
+        alert('Email Enviado');
         document.getElementById("enviar").value = 'Enviar';
      },
      error: function(data){
-        alert('Email não enviado, tente outra forma de contato')
+        alert('Email não enviado, tente outra forma de contato');
+        document.getElementById("enviar").value = 'Enviar';
      }
 
  })
