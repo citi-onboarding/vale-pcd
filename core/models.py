@@ -16,13 +16,8 @@ class Relatos(models.Model):
 
 class QuemSomos(SingletonModel):
     descricao = models.TextField('Descrição', max_length=400)
-
-   
-
     destaque = models.CharField('Frase em destaque',max_length=100,help_text="Frase que ficará em destaque, podendo ser ou não uma frase da descrição")
-
     imagem = models.ImageField(upload_to='quemSomos/', verbose_name='Imagem')
-
 
     #Usado para ajustar o plural
     class Meta:
