@@ -8,8 +8,6 @@ $('#contact-form').submit(function(e){
  const mensagem=$('input[name=mensagem').val();
  const token = jQuery("[name=csrfmiddlewaretoken]").val();
 
- alert(token);
-
  $.ajax({
      type: 'POST',
      url: '/contato',
@@ -20,12 +18,6 @@ $('#contact-form').submit(function(e){
      'assunto':assunto,
      'mensagem':mensagem
      },
-     sucess: function(data){
-         alert("Email enviado com sucesso")
-     },
-     error: function(data){
-         alert("Erro ao enviar email")
-     }
  })
 
  });
