@@ -8,5 +8,4 @@
 .vscode
 
 ### Variáveis ###
-variaveis.py
-variaveisLinux.sh
+valePcd/*.env
