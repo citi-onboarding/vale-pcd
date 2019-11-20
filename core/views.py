@@ -27,7 +27,7 @@ def email(request):
     mensagem = request.POST.get('mensagem')
 
    #corpo do email
-    corpoEmail = f'Nome:{nome}\n Assunto: {assunto}\n Email: {email}\n Mensagem: {mensagem}'
+    corpoEmail = f'Nome: {nome}\n Assunto: {assunto}\n Email: {email}\n Mensagem: {mensagem}'
 
     """ O primeiro email é o que envia e o segundo é o que recebe """
     mail = EmailMessage(assunto,corpoEmail,'valepcd.site@gmail.com',['valepcd.site@gmail.com'])
