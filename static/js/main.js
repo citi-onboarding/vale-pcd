@@ -1,4 +1,10 @@
+
+
 $('#contact-form').submit(function(e){
+
+
+        document.getElementById("enviar").value = 'Enviando Mensagem';
+
 
     e.preventDefault();
     //alocando os valores do input nas 'constantes'
@@ -18,6 +24,14 @@ $('#contact-form').submit(function(e){
      'assunto':assunto,
      'mensagem':mensagem
      },
+     success: function(data){
+        alert('Email Enviado')
+        document.getElementById("enviar").value = 'Enviar';
+     },
+     error: function(data){
+        alert('Email não enviado, tente outra forma de contato')
+     }
+
  })
 
  });
