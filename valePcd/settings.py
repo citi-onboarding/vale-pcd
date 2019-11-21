@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+from dotenv import load_dotenv
+
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -121,7 +124,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = ''
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static'),
 ]
@@ -133,3 +136,16 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 import django_heroku
 django_heroku.settings(locals())
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+""" Encapsulamento"""
+from dotenv import load_dotenv, find_dotenv
+load_dotenv(find_dotenv())
+
+
+""" Seção Contato """
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = os.getenv("email_contato")
+EMAIL_HOST_PASSWORD = os.getenv("senha_email")
+EMAIL_PORT = 587
