@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 
 
 
@@ -138,7 +138,7 @@ django_heroku.settings(locals())
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 """ Encapsulamento"""
-from dotenv import load_dotenv, find_dotenv
+
 load_dotenv(find_dotenv())
 
 
