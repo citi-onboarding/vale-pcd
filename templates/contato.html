@@ -1,33 +1,32 @@
 {% load static %}
 <section>
 
-     <!-- <h1> Contato </h1>
-        <form action="POST" id="contact-form" style="display: flex; flex-direction: column; width: 400px;">  -->
-    {% csrf_token %}
+    <h1> Contato </h1>
+    <form action="POST" id="contact-form" class="secao-contato">
+        {% csrf_token %}
 
-          <!--  <label for="input-nome"> Nome: </label>
-           <input type="text" name="nome" id="input-name" required>
+        <label for="input-nome"> Nome: </label>
+        <input type="text" name="nome" id="input-name" required>
 
-           <label for="input-email"> Email: </label>
-           <input type="email" name="email" id="input-email" required>
+        <label for="input-email"> Email: </label>
+        <input type="email" name="email" id="input-email" required>
 
-           <label for="input-assunto"> Assunto :</label>
-           <input type="text" name="assunto" id="input-subject" required>
+        <label for="input-assunto"> Assunto :</label>
+        <input type="text" name="assunto" id="input-subject" required>
 
-           <label for="input-mensagem"> Mensagem: </label>
-           <input type="text" name="mensagem" id="input-message" required>
+        <label for="input-mensagem"> Mensagem: </label>
+        <input type="text" name="mensagem" id="input-message" required>
 
 
 
-           <input type="submit" value="Enviar" onclick="enviando()" id="enviar">
+        <input type="submit" value="Enviar" onclick="enviando()" id="enviar">
 
-           <div id="msg">
+        <div id="msg">
         </div>
-       </form> -->
+    </form>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
-        </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    </script>
 
     <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
 
