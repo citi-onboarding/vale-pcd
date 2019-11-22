@@ -10,13 +10,13 @@
     position: relative;
     justify-content: space-around;
     flex-direction: row-reverse;
-    align-items: center;
+    /* align-items: center; */
     padding-top: 100px;
 }
 
 .contato-container-items {
+    font-size: 20px;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     z-index: 1;
     color: white;
@@ -27,7 +27,6 @@
 }
 
 .contato-items-botao {
-    display: flex;
     align-self: center;
     background: transparent;
     border: 2px solid #FFFFFF;
@@ -35,6 +34,9 @@
     border-radius: 30px;
     width: 130px;
     height: 50px;
+    text-align: center;
+    color: white;
+    display: inline-block;
 }
 
 .contato-items-input {
