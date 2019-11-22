@@ -1,8 +1,9 @@
 {% load static %}
-<section>
+<h1> Contato </h1>
+<section class="contato">
 
-    <h1> Contato </h1>
-    <form action="POST" id="contact-form" class="secao-contato">
+
+    <form action="POST" id="contact-form" class="contato-container">
         {% csrf_token %}
 
         <label for="input-nome"> Nome: </label>
@@ -24,6 +25,16 @@
         <div id="msg">
         </div>
     </form>
+
+    <aside class="contato-container">
+
+        <div> (81) 3426-8978 </div>
+        <div> pcdvale@gmail.com</div>
+        <div> /valePCD </div>
+        <div> @pcdvale </div>
+
+
+    </aside>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
     </script>
