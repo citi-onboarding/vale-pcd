@@ -1,44 +1,54 @@
 {% load static %}
 
 
-<h1 class="contato-titulo"> Contato </h1>
+
 <section class="contato">
 
+    <div>
+        <h2 class="contato-titulo"> Contato </h2>
+    </div>
 
 
-    <form action="POST" id="contact-form" class="contato-container">
-        <!-- <img src="static/imagens/contato-degrade2.svg" alt="" class="contato-container-imagem"> -->
-        {% csrf_token %}
+    <div class="contato-container">
 
-        <label for="input-nome"> Nome: </label>
-        <input type="text" name="nome" id="input-name" required>
+        <form action="POST" id="contact-form" class="contato-container-items">
+            <!-- <img src="static/imagens/contato-degrade2.svg" alt="" class="contato-container-imagem"> -->
+            {% csrf_token %}
 
-        <label for="input-email"> Email: </label>
-        <input type="email" name="email" id="input-email" required>
+            <label for="input-nome"> Nome: </label>
+            <input type="text" name="nome" id="input-name" required>
 
-        <label for="input-assunto"> Assunto :</label>
-        <input type="text" name="assunto" id="input-subject" required>
+            <label for="input-email"> Email: </label>
+            <input type="email" name="email" id="input-email" required>
 
-        <label for="input-mensagem"> Mensagem: </label>
-        <input type="text" name="mensagem" id="input-message" required>
+            <label for="input-assunto"> Assunto :</label>
+            <input type="text" name="assunto" id="input-subject" required>
+
+            <label for="input-mensagem"> Mensagem: </label>
+            <input type="text" name="mensagem" id="input-message" required>
 
 
 
-        <input type="submit" value="Enviar" onclick="enviando()" id="enviar">
+            <input type="submit" value="Enviar" onclick="enviando()" id="enviar">
 
-        <div id="msg">
+            <div id="msg">
+            </div>
+        </form>
+
+        <div class="contato-container-items">
+
+            <div> (81) 3426-8978 </div>
+            <div> pcdvale@gmail.com</div>
+            <div> /valePCD </div>
+            <div> @pcdvale </div>
+
+
         </div>
-    </form>
-
-    <aside class="contato-container">
-
-        <div> (81) 3426-8978 </div>
-        <div> pcdvale@gmail.com</div>
-        <div> /valePCD </div>
-        <div> @pcdvale </div>
 
 
-    </aside>
+
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
     </script>

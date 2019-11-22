@@ -2,20 +2,28 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    flex-direction: column;
 }
 
 .contato-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row-reverse;
     align-items: center;
     padding-top: 100px;
+}
+
+.contato-container-items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .contato-titulo {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    align-self: center;
     color: #86007D;
     font: Regular 60px/88px Sinhala Sangam MN;
 }
