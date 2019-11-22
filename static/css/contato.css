@@ -1,6 +1,6 @@
 .contato {
     display: flex;
-    width: 400px;
+    width: 100%;
     justify-content: space-around;
     flex-direction: row-reverse;
 }
