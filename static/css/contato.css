@@ -1,5 +1,12 @@
-.secao-contato {
+.contato {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.contato-container {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    align-items: center;
 }
