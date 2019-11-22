@@ -1,9 +1,13 @@
 {% load static %}
-<h1> Contato </h1>
+
+
+<h1 class="contato-titulo"> Contato </h1>
 <section class="contato">
 
 
+
     <form action="POST" id="contact-form" class="contato-container">
+        <!-- <img src="static/imagens/contato-degrade2.svg" alt="" class="contato-container-imagem"> -->
         {% csrf_token %}
 
         <label for="input-nome"> Nome: </label>
