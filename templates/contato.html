@@ -10,32 +10,33 @@
 
 
     <div class="contato-container">
-
         <form action="POST" id="contact-form" class="contato-container-items">
-            <!-- <img src="static/imagens/contato-degrade2.svg" alt="" class="contato-container-imagem"> -->
             {% csrf_token %}
-
-            <label for="input-nome"> Nome: </label>
-            <input type="text" name="nome" id="input-name" required>
-
-            <label for="input-email"> Email: </label>
-            <input type="email" name="email" id="input-email" required>
-
-            <label for="input-assunto"> Assunto :</label>
-            <input type="text" name="assunto" id="input-subject" required>
-
-            <label for="input-mensagem"> Mensagem: </label>
-            <input type="text" name="mensagem" id="input-message" required>
+            <!--  <div> <img src="static/imagens/contato-degrade2.svg" alt="" class="contato-container-imagem"></div> -->
 
 
+            <label for="input-nome" class="contato-items-label"> Nome: </label>
+            <input type="text" name="nome" id="input-name" required class="contato-items-input">
 
-            <input type="submit" value="Enviar" onclick="enviando()" id="enviar">
+            <label for="input-email" class="contato-items-label"> Email: </label>
+            <input type="email" name="email" id="input-email" required class="contato-items-input">
 
-            <div id="msg">
+            <label for="input-assunto" class="contato-items-label"> Assunto :</label>
+            <input type="text" name="assunto" id="input-subject" required class="contato-items-input">
+
+            <label for="input-mensagem" class="contato-items-label"> Mensagem: </label>
+            <input type="text" name="mensagem" id="input-message" class="contato-items-mensagem contato-items-input" required>
+
+
+
+            <input type=" submit " value="Enviar" class="contato-items-botao" onclick="enviando() " id="enviar ">
+
+            <div id="msg ">
             </div>
         </form>
 
-        <div class="contato-container-items">
+        <div class="contato-container-items ">
+
 
             <div> (81) 3426-8978 </div>
             <div> pcdvale@gmail.com</div>
@@ -50,9 +51,9 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous ">
     </script>
 
-    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+    <script type="text/javascript " src="{% static 'js/main.js' %} "></script>
 
 </section>

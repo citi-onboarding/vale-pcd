@@ -7,6 +7,7 @@
 
 .contato-container {
     display: flex;
+    position: relative;
     justify-content: space-around;
     flex-direction: row-reverse;
     align-items: center;
@@ -17,6 +18,35 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    z-index: 1;
+    color: white;
+}
+
+.contato-items-label {
+    padding-top: 7px;
+}
+
+.contato-items-botao {
+    display: flex;
+    align-self: center;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 130px;
+    height: 50px;
+}
+
+.contato-items-input {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.contato-items-mensagem {
+    height: 160px;
+    width: 320px;
 }
 
 .contato-titulo {
@@ -29,7 +59,15 @@
 }
 
 .contato-container-imagem {
-    width: 400px;
-    height: 400px;
-    opacity: 50%;
+    display: flex;
+    justify-self: right;
+    justify-content: right;
+    align-items: center;
+    bottom: -200px;
+    right: 0px;
+    position: absolute;
+    height: 700px;
+    opacity: 90%;
+    z-index: -1;
+    border: 0px;
 }
