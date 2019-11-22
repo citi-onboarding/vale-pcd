@@ -22,6 +22,16 @@
     color: white;
 }
 
+.contato-container-items2 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 60px;
+    z-index: 1;
+    color: white;
+}
+
 .contato-items-label {
     padding-top: 7px;
 }
@@ -64,12 +74,14 @@
     display: flex;
     justify-self: right;
     justify-content: right;
-    align-items: center;
-    bottom: -200px;
-    right: 0px;
+    right: 0;
+    bottom: 15px;
+    /* padding-bottom: 150px; */
     position: absolute;
-    height: 700px;
+    height: 600px;
     opacity: 90%;
     z-index: -1;
-    border: 0px;
+    overflow: hidden;
+    width: 65%;
+    bottom: 0;
 }
