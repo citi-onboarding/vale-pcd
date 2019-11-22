@@ -25,12 +25,13 @@
     display: flex;
     padding: 0;
     margin: 0;
-    color: black;
-    font-size: 28px;
-    width: 400px;
+    width: 370px;
 }
 .nav-linksection-a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
     text-decoration: none;
+    color: #86007D;
 }
 .nav-container-socialnetlinks{
     list-style-type: none;
@@ -63,13 +64,13 @@
 .nav-socialnetlinks-iconinsta{
     position: absolute;
     left: 130px;
-    top: 17px;
+    top: 20px;
 }
 .nav-link-iconface{
     width: 35px;
     height: 35px;
 }
 .nav-link-iconinsta{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 }
