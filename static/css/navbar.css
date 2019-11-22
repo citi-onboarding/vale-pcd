@@ -1,6 +1,73 @@
-nav{
-    background-color: tomato;
-    color: violet;
-    height: 100px;
-    border-bottom: 10px;
+.nav{
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(134, 0, 125, 0.25);
+    background-color: white;
+    height: 75px;
+    width: 100%;
+    box-shadow: 0px 5px rgba(244, 223, 246, 0.3);
+}
+.nav-container-logo{
+    position: relative;
+    left: 60px;
+}
+.nav-link-imagelogopcd{
+    width: 180px;
+    height: 50px;
+}
+.nav-container-sections{
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 28px;
+    width: 400px;
+}
+.nav-linksection-a{
+    text-decoration: none;
+}
+.nav-container-socialnetlinks{
+    list-style-type: none;
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav-socialnetlinks-iconface{
+    height: 35px;
+    width: 35px;
+}
+.nav-socialnetlinks-iconinsta{
+    height: 35px;
+    width: 35px;
+}
+.nav-socialnetlinks-backimage{
+    width: 200px;
+}
+.nav-backimage-image{
+    width: 105%;
+    height: 75px;
+}
+.nav-socialnetlinks-iconface{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.nav-socialnetlinks-iconinsta{
+    position: absolute;
+    left: 130px;
+    top: 17px;
+}
+.nav-link-iconface{
+    width: 35px;
+    height: 35px;
+}
+.nav-link-iconinsta{
+    width: 35px;
+    height: 35px;
 }
