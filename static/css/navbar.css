@@ -19,6 +19,8 @@
 }
 .nav-container-sections{
     list-style-type: none;
+    position: relative;
+    left: 35px;
     justify-content: space-between;
     display: flex;
     padding: 0;
