@@ -85,3 +85,17 @@
     width: 65%;
     bottom: 0;
 }
+
+.contato-container-imagem2 {
+    left: 0px;
+    bottom: 15px;
+    /* padding-bottom: 150px; */
+    position: absolute;
+    opacity: 90%;
+    z-index: 0;
+    width: 65%;
+    bottom: 0;
+    max-width: 725px;
+    min-width: 200px;
+    min-height: 400px;
+}
