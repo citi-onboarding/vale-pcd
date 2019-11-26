@@ -13,6 +13,10 @@ footer {
     align-items: center;
 }
 
+.footer-texto {
+    margin-right: 50px;
+}
+
 .footer-texto-coracao {
     height: 20px;
 }
