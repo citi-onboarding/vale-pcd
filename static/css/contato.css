@@ -15,11 +15,12 @@
 }
 
 .contato-container-items {
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     z-index: 2;
     color: white;
+    margin-bottom: 80px;
 }
 
 .contato-container-items2 {
@@ -56,11 +57,12 @@
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     padding-top: 10px;
+    height: 20px;
 }
 
 .contato-items-mensagem {
     height: 160px;
-    width: 320px;
+    width: 360px;
 }
 
 .contato-titulo {
