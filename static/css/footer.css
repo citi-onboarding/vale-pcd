@@ -1,7 +1,7 @@
 footer {
     background: #86007D 0% 0% no-repeat padding-box;
     bottom: 0px;
-    z-index: 10;
+    z-index: 3;
     width: 100%;
     height: 58px;
     position: absolute;
@@ -13,10 +13,28 @@ footer {
     align-items: center;
 }
 
+footer a {
+    color: white;
+}
+
+footer::any-link {
+    color: white;
+}
+
 .footer-texto {
     margin-right: 50px;
 }
 
 .footer-texto-coracao {
     height: 20px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        font-size: 14px;
+        height: 45px;
+    }
+    .footer-texto-coracao {
+        height: 10px;
+    }
 }
