@@ -8,7 +8,7 @@
 .contato-container {
     display: flex;
     position: relative;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row-reverse;
     /* align-items: center; */
     padding-top: 100px;
@@ -21,6 +21,7 @@
     z-index: 2;
     color: white;
     margin-bottom: 80px;
+    margin-right: 11%;
 }
 
 .contato-container-items2 {
@@ -31,6 +32,7 @@
     margin-top: 70px;
     z-index: 2;
     color: white;
+    margin-left: 15%;
 }
 
 .contato-items-label {
