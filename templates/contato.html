@@ -4,57 +4,5 @@
 
 <section class="contato">
 
-    <div>
-
-        <div class="contato-titulo">
-            <img src="static/imagens/contato-asa-esquerda.svg" alt="" class="contato-item-imagem">
-            <h2 class="contato-titulo-item"> Fale Conosco! </h2>
-            <img src="static/imagens/contato-asa-direita.svg" alt="" class="contato-item-imagem">
-        </div>
-    </div>
-
-
-    <div class="contato-container">
-
-        <img src="static/imagens/contato-degrade-esquerdo.svg" alt="" class="contato-container-imagem2">
-        <img src="static/imagens/contato-degrade2-direita.svg" alt="" class="contato-container-imagem">
-
-        <form action="POST" id="contact-form" class="contato-container-items">
-            {% csrf_token %}
-            <!--  <div> <img src="static/imagens/contato-degrade2.svg" alt="" class="contato-container-imagem"></div> -->
-
-            <!-- ajustar for  para ser igual ao id -->
-            <label for="input-nome" class="contato-items-label"> Nome: </label>
-            <input type="text" name="nome" id="input-nome" required class="contato-items-input">
-
-            <label for="input-email" class="contato-items-label"> E-mail: </label>
-            <input type="email" name="email" id="input-email" required class="contato-items-input">
-
-            <label for="input-assunto" class="contato-items-label"> Assunto:</label>
-            <input type="text" name="assunto" id="input-assunto" required class="contato-items-input">
-
-            <label for="input-mensagem" class="contato-items-label"> Digite aqui seu texto: </label>
-            <input type="text" name="mensagem" id="input-mensagem" class="contato-items-mensagem contato-items-input" required>
-
-
-            <!--  Ajustar para button type submit -->
-            <button type="submit" value="Enviar" class="contato-items-botao" onclick="enviando()" id="enviar"> <b>Enviar</b> </button>
-
-        </form>
-        <!--  usar o css no id , em imagem -->
-
-        <div class="contato-container-items2 ">
-            <div class="container-items2-telefone"> <img src="static/imagens/contato-icon-telefone.svg" alt="" class="items2-telefone-icon"> (81) 3426-8978 </div>
-            <div class="container-items2-email"> <img src="static/imagens/contato-icon-email.svg" alt="" class="items2-email-icon"> <u> pcdvale@gmail.com </u> </div>
-            <div class="container-items2-facebook"> <img src="static/imagens/contato-icon-facebook.svg" alt="" class="items2-facebook-icon"> /valePCD </div>
-            <div class="container-items2-instagram"> <img src="static/imagens/contato-icon-instagram.svg" alt="" class="items2-instagram-icon"> @pcdvale </div>
-        </div>
-
-
-
-    </div>
-
-
-
 
 </section>
