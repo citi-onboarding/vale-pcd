@@ -73,7 +73,6 @@
     align-self: center;
     color: #86007D;
     font-size: 40px;
-    padding-bottom: -200px;
     /* font: Regular 60px/88px Sinhala Sangam MN; */
 }
 
@@ -83,6 +82,9 @@
 
 .contato-titulo-imagem {
     display: flex;
+    height: 5px;
+    width: 5px;
+    background-size: 10px;
 }
 
 
@@ -111,4 +113,48 @@
     z-index: 1;
     width: 64%;
     bottom: 0;
+}
+
+.container-items2-telefone {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.items2-telefone-icon {
+    width: 30px;
+    height: 25px;
+}
+
+.items2-email-icon {
+    width: 40px;
+    height: 32px;
+}
+
+.items2-facebook-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.items2-instagram-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.container-items2-email {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.container-items2-facebook {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.container-items2-instagram {
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
