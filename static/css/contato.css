@@ -11,7 +11,7 @@
     justify-content: space-between;
     flex-direction: row-reverse;
     /* align-items: center; */
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .contato-container-items {
@@ -70,10 +70,19 @@
 .contato-titulo {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     align-self: center;
     color: #86007D;
+    font-size: 40px;
+    padding-bottom: -200px;
     /* font: Regular 60px/88px Sinhala Sangam MN; */
+}
+
+.contato-titulo-item {
+    font-size: 40px;
+}
+
+.contato-titulo-imagem {
+    display: flex;
 }
 
 
