@@ -18,7 +18,7 @@
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    z-index: 2;
     color: white;
 }
 
@@ -28,7 +28,7 @@
     flex-direction: column;
     align-self: center;
     margin-top: 70px;
-    z-index: 1;
+    z-index: 2;
     color: white;
 }
 
@@ -67,7 +67,7 @@
     align-items: flex-start;
     align-self: center;
     color: #86007D;
-    font: Regular 60px/88px Sinhala Sangam MN;
+    /* font: Regular 60px/88px Sinhala Sangam MN; */
 }
 
 
@@ -77,10 +77,10 @@
     right: 0;
     /* padding-bottom: 150px; */
     position: absolute;
-    height: 600px;
+    height: 770px;
     opacity: 90%;
-    z-index: -1;
-    width: 75%;
+    z-index: 1;
+    width: 67%;
     bottom: 0;
 }
 
@@ -88,14 +88,12 @@
 /* degradê da direita  */
 
 .contato-container-imagem2 {
-    left: 0px;
-    bottom: 0px;
+    left: 0;
     /* padding-bottom: 150px; */
     position: absolute;
+    height: 560px;
     opacity: 90%;
-    z-index: -2;
-    width: 65%;
-    max-width: 700px;
-    min-width: 200px;
-    /*  min-height: 400px; */
+    z-index: 1;
+    width: 64%;
+    bottom: 0;
 }
