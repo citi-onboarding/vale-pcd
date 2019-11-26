@@ -32,7 +32,8 @@
     margin-top: 70px;
     z-index: 2;
     color: white;
-    margin-left: 15%;
+    margin-left: 14%;
+    /*  font: Regular 30px/39px Malayalam Sangam MN; */
 }
 
 .contato-items-label {
@@ -95,7 +96,7 @@
     /* padding-bottom: 150px; */
     position: absolute;
     height: 770px;
-    opacity: 90%;
+    opacity: 100%;
     z-index: 1;
     width: 67%;
     bottom: 0;
@@ -109,7 +110,7 @@
     /* padding-bottom: 150px; */
     position: absolute;
     height: 560px;
-    opacity: 90%;
+    opacity: 100%;
     z-index: 1;
     width: 64%;
     bottom: 0;
@@ -118,43 +119,46 @@
 .container-items2-telefone {
     display: flex;
     align-items: center;
-    margin: 10px;
-}
-
-.items2-telefone-icon {
-    width: 30px;
-    height: 25px;
-}
-
-.items2-email-icon {
-    width: 40px;
-    height: 32px;
-}
-
-.items2-facebook-icon {
-    width: 40px;
-    height: 40px;
-}
-
-.items2-instagram-icon {
-    width: 40px;
-    height: 40px;
+    margin-bottom: 30px;
 }
 
 .container-items2-email {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 .container-items2-facebook {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 .container-items2-instagram {
     display: flex;
     align-items: center;
-    margin: 10px;
+}
+
+.items2-telefone-icon {
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.items2-email-icon {
+    width: 40px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.items2-facebook-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.items2-instagram-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
