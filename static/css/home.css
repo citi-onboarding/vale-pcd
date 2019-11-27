@@ -2,3 +2,7 @@ body {
     margin: 0px;
     background-color: white;
 }
+
+:root {
+    font-size: 10px;
+}
