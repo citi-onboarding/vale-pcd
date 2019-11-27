@@ -175,19 +175,19 @@
 
 @media (max-width: 1100px) {
     .contato-container-items2 {
-        margin-top: 200px;
+        margin-top: 100px;
         color: white;
         margin-left: 11%;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
     }
     .contato-container-imagem2 {
-        width: 61%;
+        width: 68%;
     }
 }
 
 @media (max-width: 1000px) {
     .contato-container-items2 {
-        margin-top: 200px;
+        margin-top: 100px;
         color: white;
         margin-left: 11%;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
@@ -232,6 +232,6 @@
         margin-bottom: 20px;
     }
     .contato-container-imagem2 {
-        width: 65%;
+        width: 72%;
     }
 }
