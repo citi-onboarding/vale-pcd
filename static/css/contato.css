@@ -89,7 +89,7 @@
 }
 
 
-/* degradê da esquerda  */
+/* degradê da direita  */
 
 .contato-container-imagem {
     right: 0;
@@ -103,17 +103,17 @@
 }
 
 
-/* degradê da direita  */
+/* degradê da esquerda  */
 
 .contato-container-imagem2 {
     left: 0;
     /* padding-bottom: 150px; */
     position: absolute;
-    height: 560px;
+    /* height: 560px; */
     opacity: 100%;
     z-index: 1;
     width: 64%;
-    bottom: 0;
+    bottom: 0px;
 }
 
 .container-items2-telefone {
@@ -161,4 +161,31 @@
     width: 40px;
     height: 40px;
     margin-right: 10px;
+}
+
+@media (max-width: 1250px) {
+    .contato-container-items2 {
+        margin-top: 150px;
+        color: white;
+        margin-left: 12%;
+        /*  font: Regular 30px/39px Malayalam Sangam MN; */
+    }
+}
+
+@media (max-width: 1100px) {
+    .contato-container-items2 {
+        margin-top: 200px;
+        color: white;
+        margin-left: 11%;
+        /*  font: Regular 30px/39px Malayalam Sangam MN; */
+    }
+}
+
+@media (max-width: 1000px) {
+    .contato-container-items2 {
+        margin-top: 300px;
+        color: white;
+        margin-left: 10%;
+        /*  font: Regular 30px/39px Malayalam Sangam MN; */
+    }
 }
