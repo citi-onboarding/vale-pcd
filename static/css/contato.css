@@ -15,7 +15,7 @@
 }
 
 .contato-container-items {
-    font-size: 1.8rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     z-index: 2;
@@ -25,7 +25,7 @@
 }
 
 .contato-container-items2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -126,6 +126,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .container-items2-facebook {
@@ -140,7 +141,7 @@
 }
 
 .items2-telefone-icon {
-    width: 30px;
+    width: 37px;
     height: 25px;
     margin-right: 10px;
 }
@@ -185,12 +186,11 @@
     .contato-container-items2 {
         margin-top: 200px;
         color: white;
-        margin-left: 10%;
-        font-size: 14px;
+        margin-left: 11%;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
     }
     .contato-container-items {
-        font-size: 20px;
+        /* font-size: 2rem; */
         color: white;
         margin-bottom: 80px;
         margin-right: 7%;
