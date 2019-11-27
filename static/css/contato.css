@@ -183,9 +183,20 @@
 
 @media (max-width: 1000px) {
     .contato-container-items2 {
-        margin-top: 300px;
+        margin-top: 200px;
         color: white;
         margin-left: 10%;
+        font-size: 14px;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
+    }
+    .contato-container-items {
+        font-size: 20px;
+        color: white;
+        margin-bottom: 80px;
+        margin-right: 7%;
+    }
+    .contato-container-imagem {
+        height: 680px;
+        width: 67%;
     }
 }
