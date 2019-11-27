@@ -15,7 +15,7 @@
 }
 
 .contato-container-items {
-    font-size: 30px;
+    font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     z-index: 2;
@@ -25,7 +25,7 @@
 }
 
 .contato-container-items2 {
-    font-size: 20px;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -37,7 +37,8 @@
 }
 
 .contato-items-label {
-    padding-top: 7px;
+    padding-top: 8px;
+    padding-bottom: 5px;
 }
 
 .contato-items-botao {
@@ -51,7 +52,7 @@
     text-align: center;
     color: white;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1.5rem;
     /* font: Regular 34px/42px Damascus; */
 }
 
@@ -73,12 +74,11 @@
     justify-content: center;
     align-self: center;
     color: #86007D;
-    font-size: 40px;
     /* font: Regular 60px/88px Sinhala Sangam MN; */
 }
 
 .contato-titulo-item {
-    font-size: 40px;
+    font-size: 3.0rem
 }
 
 .contato-titulo-imagem {
