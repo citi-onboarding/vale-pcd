@@ -199,4 +199,24 @@
         height: 680px;
         width: 67%;
     }
+    .items2-telefone-icon {
+        width: 20px;
+        height: 18px;
+        margin-right: 10px;
+    }
+    .items2-email-icon {
+        width: 28px;
+        height: 24px;
+        margin-right: 10px;
+    }
+    .items2-facebook-icon {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    .items2-instagram-icon {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+    }
 }
