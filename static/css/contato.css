@@ -20,8 +20,8 @@
     flex-direction: column;
     z-index: 2;
     color: white;
-    margin-bottom: 80px;
-    margin-right: 11%;
+    margin-bottom: 70px;
+    margin-right: 13%;
 }
 
 .contato-container-items2 {
@@ -61,12 +61,12 @@
     border: 2px solid #FFFFFF;
     border-radius: 10px;
     padding-top: 10px;
-    height: 20px;
+    height: 15px;
 }
 
 .contato-items-mensagem {
-    height: 160px;
-    width: 360px;
+    height: 130px;
+    width: 300px;
 }
 
 .contato-titulo {
@@ -95,7 +95,7 @@
     right: 0;
     /* padding-bottom: 150px; */
     position: absolute;
-    height: 770px;
+    height: 616px;
     opacity: 100%;
     z-index: 1;
     width: 67%;
@@ -112,7 +112,7 @@
     /* height: 560px; */
     opacity: 100%;
     z-index: 1;
-    width: 64%;
+    width: 56%;
     bottom: 0px;
 }
 
