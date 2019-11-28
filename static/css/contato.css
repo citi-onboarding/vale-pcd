@@ -34,6 +34,7 @@
     z-index: 2;
     color: white;
     margin-left: 14%;
+    /* visibility: visible; */
     /*  font: Regular 30px/39px Malayalam Sangam MN; */
 }
 
@@ -348,3 +349,4 @@
         cursor:pointer;
     }
 }
+
