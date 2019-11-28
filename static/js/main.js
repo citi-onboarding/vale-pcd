@@ -34,3 +34,10 @@ $('#contact-form').submit(function(e) {
     })
 
 });
+
+
+function dadosContato(){
+
+   /*  document.getElementById('id1').style.color */
+
+}

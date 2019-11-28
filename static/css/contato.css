@@ -1,3 +1,4 @@
+
 .contato {
     display: flex;
     width: 100%;
@@ -51,6 +52,21 @@
     height: 60px;
     text-align: center;
     color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    /* font: Regular 34px/42px Damascus; */
+}
+
+.contato-items-botao:hover {
+    align-self: center;
+    background: transparent;
+    border: 2px solid #400080;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    color: #400080;
     display: inline-block;
     font-size: 1.5rem;
     /* font: Regular 34px/42px Damascus; */
@@ -124,25 +140,34 @@
 .container-items2-telefone {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .container-items2-email {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     cursor: pointer;
+    text-decoration: underline;
+	color: white;
 }
 
 .container-items2-facebook {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-decoration: underline;
+	color: white;
 }
 
 .container-items2-instagram {
     display: flex;
     align-items: center;
+    margin-top: 15px;
+    text-decoration: underline;
+	color: white;
 }
 
 .items2-telefone-icon {
@@ -155,6 +180,7 @@
     width: 40px;
     height: 32px;
     margin-right: 10px;
+
 }
 
 .items2-facebook-icon {
