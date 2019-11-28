@@ -69,15 +69,7 @@
     width: 300px;
 }
 
-.container-items-seta {
-    display: flex;
-    align-items: center;
-    right: 5%;
-    bottom: 50%;
-    width: 37px;
-    height: 37px;
-    z-index: 3;
-}
+
 
 .contato-titulo {
     display: flex;
@@ -124,6 +116,10 @@
     width: 56%;
     bottom: 0px;
 }
+
+ .container-items-seta {
+     visibility: hidden;
+    }
 
 .container-items2-telefone {
     display: flex;
@@ -179,7 +175,11 @@
         color: white;
         margin-left: 12%;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
+        
     }
+    .container-items-seta {
+        visibility: hidden;
+       }
 }
 
 @media (max-width: 1100px) {
@@ -192,6 +192,9 @@
     .contato-container-imagem2 {
         width: 68%;
     }
+    .container-items-seta {
+        visibility: hidden;
+       }
 }
 
 @media (max-width: 1000px) {
@@ -243,6 +246,9 @@
     .contato-container-imagem2 {
         width: 72%;
     }
+    .container-items-seta {
+        visibility: hidden;
+       }
 }
 
 @media (max-width:800px) {
@@ -270,9 +276,11 @@
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
     }
     .contato-container {
-        justify-content: center;
-        /* align-items: center; */
+        justify-content: space-around;
+         align-items: center;
         padding-top: 50px;
+        flex-direction:row;
+        padding-left:20px;
     }
     .contato-items-input {
         border-radius: 15px;
@@ -299,5 +307,17 @@
     }
     .contato-titulo-item {
         font-size: 2.4rem
+    }
+
+    .container-items-seta {
+        display:flex;
+        align-self: center;
+        width: 42px;
+        height: 37px;
+        z-index: 3;
+        margin-bottom: 20px;
+        visibility: visible;
+        right: 15%;
+        
     }
 }
