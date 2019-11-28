@@ -59,7 +59,7 @@
 .contato-items-input {
     background: transparent;
     border: 2px solid #FFFFFF;
-    border-radius: 10px;
+    border-radius: 15px;
     padding-top: 10px;
     height: 15px;
 }
@@ -319,5 +319,6 @@
         margin-left:-40px;
         visibility: visible;
         right: 17%;
+        cursor:pointer;
     }
 }
