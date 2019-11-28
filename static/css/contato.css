@@ -69,6 +69,16 @@
     width: 300px;
 }
 
+.container-items-seta {
+    display: flex;
+    align-items: center;
+    right: 5%;
+    bottom: 50%;
+    width: 37px;
+    height: 37px;
+    z-index: 3;
+}
+
 .contato-titulo {
     display: flex;
     justify-content: center;
@@ -284,7 +294,7 @@
         border-radius: 30px;
         width: 120px;
         height: 50px;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         /* font: Regular 34px/42px Damascus; */
     }
     .contato-titulo-item {
