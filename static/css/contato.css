@@ -234,3 +234,60 @@
         width: 72%;
     }
 }
+
+@media (max-width:800px) {
+    .contato-container-imagem2 {
+        visibility: hidden;
+    }
+    .contato-container-imagem {
+        /* padding-bottom: 150px; */
+        position: absolute;
+        height: 460px;
+        opacity: 100%;
+        z-index: 1;
+        width: 120%;
+        bottom: 0;
+    }
+    .contato-container-items2 {
+        /* itens da esquerda (instagram..) */
+        visibility: hidden;
+        font-size: 1.8rem;
+        display: none;
+        margin-top: 70px;
+        z-index: 2;
+        color: white;
+        margin-left: 14%;
+        /*  font: Regular 30px/39px Malayalam Sangam MN; */
+    }
+    .contato-container {
+        justify-content: center;
+        /* align-items: center; */
+        padding-top: 50px;
+    }
+    .contato-items-input {
+        border-radius: 15px;
+        padding-top: 6px;
+        height: 17px;
+    }
+    .contato-items-mensagem {
+        height: 90px;
+        width: 250px;
+    }
+    .contato-container-items {
+        font-size: 1.4rem;
+        color: white;
+        margin-bottom: 20px;
+        margin-right: 10%;
+    }
+    .contato-items-botao {
+        margin-top: 10px;
+        border-radius: 30px;
+        width: 120px;
+        height: 50px;
+        font-size: 1.1rem;
+        /* font: Regular 34px/42px Damascus; */
+    }
+    .contato-titulo-item {
+        font-size: 2.4rem
+    }
+}
