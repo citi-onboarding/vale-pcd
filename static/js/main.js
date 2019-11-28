@@ -37,7 +37,24 @@ $('#contact-form').submit(function(e) {
 
 
 function dadosContato(){
-
    /*  document.getElementById('id1').style.color */
+   let estiloFormulario = document.querySelector('#contact-form').style;
+   let estiloDegradeEsquerdo =  document.querySelector('#contato-degrade-esquerda').style;
+   let estiloDegradeDireito = document.querySelector('#contato-degrade-direita').style;
+   let estiloContatoRedesSociais =  document.querySelector('#contato-redes-sociais').style;
+
+    if(estiloFormulario.visibility == "hidden"){
+
+        estiloFormulario.visibility = "visible";
+        estiloDegradeDireito.visibility = "visible";
+        estiloDegradeEsquerdo.visibility = "hidden";
+
+    }else{
+        estiloFormulario.visibility = "hidden";
+        estiloDegradeDireito.visibility = "hidden";
+        estiloDegradeEsquerdo.visibility = "visible";
+        estiloContatoRedesSociais.visibility = "visible";
+
+    }
 
 }
