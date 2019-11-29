@@ -1,0 +1,6 @@
+.quemsomos-titulo-imagem {
+    background-image: url('static/imagens/borboleta-asa-esquerda.svg');
+    display: flex;
+    height: 5px;
+}
+
