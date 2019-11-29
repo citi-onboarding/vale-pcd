@@ -1,7 +1,36 @@
 {% load static %}
 
-<section class="quemsomos"> 
+<section class="quemsomos">
 
     <div class="quemsomos-titulo">O que é o vale PCD?</div>
+
+    <div class="quemsomos-container">
+
+        <div class="quemsomos-container-textos">
+            <div class="quemsomos-container-frasedestaque">
+                    {% if quemsomos.destaque  %}
+                    {{quemsomos.destaque}}
+                    {% end if %}
+            </div>
+
+            <div class ="quemsomos-container-descricao">
+                    {% if quemsomos.descricao  %}
+                    {{quemsomos.descricao}}
+                    {% end if %}
+            </div>
+
+        </div>
+
+        <div class="quemsomos-container-imagens">
+
+            <div class="container-imagens-fundo"></div>
+
+            <div class="container-imagens-usuario"></div>
+
+        </div>
+
+    </div>
+
+
 
 </section>
