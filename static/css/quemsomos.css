@@ -1,17 +1,51 @@
 .quemsomos-titulo-imagem {
     display: flex;
-    height: 30px;
+    height: 25px;
     width: 20px;
 }
 
-.quemsomos{
-    display:flex;
-    justify-content: center;
+.quemsomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.quemsomos-titulo{
+.quemsomos-titulo {
     display: flex;
     flex-direction: row;
-    color:#86007D;
+    justify-content: center;
+    color: #86007D;
+    font-size: 2rem;
+    margin-bottom: 60px;
+}
+
+.quemsomos-container-aspaesquerda {
+    display: flex;
+    height: 120px;
+    width: 45px;
+    padding-bottom: 50px;
+}
+
+.quemsomos-container-aspadireita {
+    display: flex;
+    height: 190px;
+    width: 45px;
+}
+
+.quemsomos-container-frasedestaque {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:110px;
+    /* position:relative; */
+}
+
+.container-frasedestaque-texto {
+    margin-top: 50px;
+}
+
+.quemsomos-container-descricao{
+ padding-left: 45px;
+ margin-left:110px;
 
 }
