@@ -278,6 +278,61 @@
        }
 }
 
+
+@media (max-width: 950px) {
+    .contato-container-items2 {
+        margin-top: 100px;
+        color: white;
+        margin-left: 11%;
+        /*  font: Regular 30px/39px Malayalam Sangam MN; */
+    }
+    .contato-container-items {
+        /* font-size: 2rem; */
+        color: white;
+        margin-bottom: 70px;
+        margin-right: 7%;
+    }
+    .contato-container-imagem {
+        height: 680px;
+        width: 67%;
+    }
+    .items2-telefone-icon {
+        width: 20px;
+        height: 18px;
+        margin-right: 10px;
+    }
+    .items2-email-icon {
+        width: 28px;
+        height: 24px;
+        margin-right: 10px;
+    }
+    .items2-facebook-icon {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    .items2-instagram-icon {
+        width: 28px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    .container-items2-telefone {
+        margin-bottom: 20px;
+    }
+    .container-items2-email {
+        margin-bottom: 20px;
+    }
+    .container-items2-facebook {
+        margin-bottom: 20px;
+    }
+    .contato-container-imagem2 {
+        width: 85%;
+    }
+    .container-items-seta {
+        visibility: hidden;
+       }
+}
+
 @media (max-width:800px) {
     .contato-container-imagem2 {
         visibility: hidden;
