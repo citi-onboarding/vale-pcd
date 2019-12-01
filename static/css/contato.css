@@ -136,14 +136,13 @@
 .container-items2-telefone {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    transform: translateY(-50px);
 }
 
 .container-items2-email {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    transform: translateY(-35px);
     cursor: pointer;
     text-decoration: underline;
     color: white;
@@ -152,8 +151,7 @@
 .container-items2-facebook {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    transform: translateY(-25px);
     text-decoration: underline;
     color: white;
 }
@@ -161,7 +159,7 @@
 .container-items2-instagram {
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    transform: translateY(-10px);
     text-decoration: underline;
     color: white;
 }
@@ -255,13 +253,13 @@
         margin-right: 10px;
     }
     .container-items2-telefone {
-        margin-bottom: 20px;
+        transform: translateY(-60px);
     }
     .container-items2-email {
-        margin-bottom: 20px;
+        transform: translateY(-40px);
     }
     .container-items2-facebook {
-        margin-bottom: 20px;
+        transform: translateY(-20px);
     }
     .contato-container-imagem2 {
         width: 72%;
@@ -308,15 +306,7 @@
         height: 28px;
         margin-right: 10px;
     }
-    .container-items2-telefone {
-        margin-bottom: 20px;
-    }
-    .container-items2-email {
-        margin-bottom: 20px;
-    }
-    .container-items2-facebook {
-        margin-bottom: 20px;
-    }
+    
     .contato-container-imagem2 {
         width: 85%;
     }
@@ -332,7 +322,7 @@
     .contato-container-imagem {
         /* padding-bottom: 150px; */
         position: absolute;
-        height: 460px;
+        height: 500px;
         opacity: 100%;
         z-index: 1;
         width: 120%;
@@ -368,7 +358,7 @@
     .contato-container-items {
         font-size: 1.4rem;
         color: white;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         margin-right: 10%;
     }
     .contato-items-botao {
