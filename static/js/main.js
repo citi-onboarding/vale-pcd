@@ -42,17 +42,27 @@ function dadosContato(){
    let estiloDegradeEsquerdo =  document.querySelector('#contato-degrade-esquerda').style;
    let estiloDegradeDireito = document.querySelector('#contato-degrade-direita').style;
    let estiloContatoRedesSociais =  document.querySelector('#contato-redes-sociais').style;
+   let estiloItemsEsquerda = document.querySelector("#contato-container-itemsesquerda").style;
+   let estiloContatoContainer = document.querySelector(".contato-container").style;
 
-    if(estiloFormulario.display == "none"){
+    if(estiloFormulario.display == "none"){ //formulário escondido
 
         estiloFormulario.display = "flex";
         estiloDegradeDireito.display = "flex";
         estiloDegradeEsquerdo.display = "none";
         estiloContatoRedesSociais.display = "none";
+        estiloItemsEsquerda.width = "0vw";
+        estiloItemsEsquerda.heigth = "0vh";
+        estiloContatoContainer.paddingTop = "80px";
+        estiloItemsEsquerda.display = "none";
 
-    }else{
+    }else{ // formulário à mostra
         estiloFormulario.display = "none";
 
+        estiloContatoContainer.paddingTop = "50px";
+       /*  estiloItemsEsquerda.width = "100vw";
+        estiloItemsEsquerda.height = "76vh"; */
+        estiloItemsEsquerda.display = "flex";
         estiloDegradeDireito.display = "none";
         estiloDegradeEsquerdo.display = "none";
         estiloContatoRedesSociais.display = "flex";
