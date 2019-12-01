@@ -314,6 +314,14 @@
 }
 
 @media (max-width:800px) {
+
+    .contato-container-itemsesquerda{
+       position:relative;
+       background-image: url("../imagens/contato-degrade-esquerdo.svg");
+       background-size: 100%;
+       background-repeat: no-repeat;
+       background-position-y: bottom;
+    }
     .contato-container-imagem2 {
        display:none;
     }
@@ -356,7 +364,7 @@
         font-size: 1.4rem;
         color: white;
         /* margin-bottom: 20px; */
-        margin-right: 10%;
+        margin-right: 2%;
     }
     .contato-items-botao {
         margin-top: 10px;
