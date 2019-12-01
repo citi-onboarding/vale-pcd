@@ -317,7 +317,7 @@
 
 @media (max-width:800px) {
     .contato-container-imagem2 {
-        visibility: hidden;
+       display:none;
     }
     .contato-container-imagem {
         /* padding-bottom: 150px; */
@@ -330,7 +330,6 @@
     }
     .contato-container-items2 {
         /* itens da esquerda (instagram..) */
-        visibility: hidden;
         font-size: 1.8rem;
         display: none;
         margin-top: 70px;

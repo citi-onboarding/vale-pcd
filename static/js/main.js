@@ -43,17 +43,19 @@ function dadosContato(){
    let estiloDegradeDireito = document.querySelector('#contato-degrade-direita').style;
    let estiloContatoRedesSociais =  document.querySelector('#contato-redes-sociais').style;
 
-    if(estiloFormulario.visibility == "hidden"){
+    if(estiloFormulario.display == "none"){
 
-        estiloFormulario.visibility = "visible";
-        estiloDegradeDireito.visibility = "visible";
-        estiloDegradeEsquerdo.visibility = "hidden";
+        estiloFormulario.display = "flex";
+        estiloDegradeDireito.display = "flex";
+        estiloDegradeEsquerdo.display = "none";
+        estiloContatoRedesSociais.display = "none";
 
     }else{
-        estiloFormulario.visibility = "hidden";
-        estiloDegradeDireito.visibility = "hidden";
-        estiloDegradeEsquerdo.visibility = "visible";
-        estiloContatoRedesSociais.visibility = "visible";
+        estiloFormulario.display = "none";
+
+        estiloDegradeDireito.display = "none";
+        estiloDegradeEsquerdo.display = "flex";
+        estiloContatoRedesSociais.display = "flex";
 
     }
 
