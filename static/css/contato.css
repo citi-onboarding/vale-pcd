@@ -12,6 +12,8 @@
     flex-direction: row-reverse;
     /* align-items: center; */
     padding-top: 80px;
+    /* width: 100vh;
+    height: 100vw; */
 }
 
 .contato-container-itemsdireita{
@@ -317,10 +319,13 @@
 
     .contato-container-itemsesquerda{
        position:relative;
-       background-image: url("../imagens/contato-degrade-esquerdo.svg");
-       background-size: 100%;
+       background-image: url("../imagens/contato-degrade1-esquerda.svg");
+       background-size: 105% 117%;
        background-repeat: no-repeat;
        background-position-y: bottom;
+       /* width: 100vw;
+       height: 100vh; */
+       overflow: hidden;
     }
     .contato-container-imagem2 {
        display:none;
@@ -338,10 +343,10 @@
         /* itens da esquerda (instagram..) */
         font-size: 1.8rem;
         display: none;
-        margin-top: 70px;
+       /*  margin-top: 70px; */
         z-index: 2;
         color: white;
-        margin-left: 14%;
+        margin-left: 25vw;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
     }
     .contato-container {
@@ -349,7 +354,7 @@
         align-items: center;
         padding-top: 50px;
         flex-direction: row;
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
     .contato-items-input {
         border-radius: 15px;
@@ -400,3 +405,35 @@
         /* font: Regular 34px/42px Damascus; */
     }
 }
+
+
+
+
+
+
+
+@media (max-width:780px) {
+
+    .contato-container-itemsesquerda{
+         width: 100vw;
+         height: 76vh;
+         display:none;
+         background-size: 105% 117%;
+
+}
+
+}
+
+
+@media (max-width:400px) {
+
+    .contato-container-itemsesquerda{
+        display:none;
+        
+        
+
+}
+
+}
+
+

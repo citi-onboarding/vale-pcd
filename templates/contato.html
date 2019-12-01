@@ -4,50 +4,64 @@
 
 <section class="contato">
 
-   
 
-        <div class="contato-titulo">
-            <img src="static/imagens/contato-asa-esquerda.svg" alt="" class="contato-titulo-imagem">
-            <div class="contato-titulo-item"> Fale Conosco! </div>
-            <img src="static/imagens/contato-asa-direita.svg" alt="" class="contato-titulo-imagem">
-        </div>
-  
+
+    <div class="contato-titulo">
+        <img src="static/imagens/contato-asa-esquerda.svg" alt="" class="contato-titulo-imagem">
+        <div class="contato-titulo-item"> Fale Conosco! </div>
+        <img src="static/imagens/contato-asa-direita.svg" alt="" class="contato-titulo-imagem">
+    </div>
+
 
 
     <div class="contato-container">
-           
-       <div class="contato-container-itemsdireita"> <img src="static/imagens/contato-degrade2-direita.svg" alt="" class="contato-container-imagem" id="contato-degrade-direita">
-        <form action="POST" id="contact-form" class="contato-container-items">
-            {% csrf_token %}
-            <!--  <div> <img src="static/imagens/contato-degrade2.svg" alt="" class="contato-container-imagem"></div> -->
 
-            <label for="input-nome" class="contato-items-label"> Nome: </label>
-            <input type="text" name="nome" id="input-nome" required class="contato-items-input">
+        <div class="contato-container-itemsdireita"> <img src="static/imagens/contato-degrade2-direita.svg" alt=""
+                class="contato-container-imagem" id="contato-degrade-direita">
+            <form action="POST" id="contact-form" class="contato-container-items">
+                {% csrf_token %}
+                <!--  <div> <img src="static/imagens/contato-degrade2.svg" alt="" class="contato-container-imagem"></div> -->
 
-            <label for="input-email" class="contato-items-label"> E-mail: </label>
-            <input type="email" name="email" id="input-email" required class="contato-items-input">
+                <label for="input-nome" class="contato-items-label"> Nome: </label>
+                <input type="text" name="nome" id="input-nome" required class="contato-items-input">
 
-            <label for="input-assunto" class="contato-items-label"> Assunto:</label>
-            <input type="text" name="assunto" id="input-assunto" required class="contato-items-input">
+                <label for="input-email" class="contato-items-label"> E-mail: </label>
+                <input type="email" name="email" id="input-email" required class="contato-items-input">
 
-            <label for="input-mensagem" class="contato-items-label"> Digite aqui seu texto: </label>
-            <input type="text" name="mensagem" id="input-mensagem" class="contato-items-mensagem contato-items-input" required>
+                <label for="input-assunto" class="contato-items-label"> Assunto:</label>
+                <input type="text" name="assunto" id="input-assunto" required class="contato-items-input">
 
-
-            <button type="submit" value="Enviar" class="contato-items-botao" onclick="enviando()" id="enviar"> <b>Enviar</b> </button>
-
-        </form></div>
+                <label for="input-mensagem" class="contato-items-label"> Digite aqui seu texto: </label>
+                <input type="text" name="mensagem" id="input-mensagem"
+                    class="contato-items-mensagem contato-items-input" required>
 
 
-        <div class="contato-container-itemsesquerda" id="contato-container-itemsesquerda"> <img src="static/imagens/contato-seta.svg" alt="Seta para direita" class="container-items-seta" onclick="dadosContato()" id="seta-contato">
-            <img src="static/imagens/contato-degrade-esquerdo.svg" alt="" class="contato-container-imagem2" id="contato-degrade-esquerda">
+                <button type="submit" value="Enviar" class="contato-items-botao" onclick="enviando()" id="enviar">
+                    <b>Enviar</b> </button>
+
+            </form>
+        </div>
+
+        <img src="static/imagens/contato-seta.svg" alt="Seta para direita" class="container-items-seta"
+                onclick="dadosContato()" id="seta-contato">
+        <div class="contato-container-itemsesquerda" id="contato-container-itemsesquerda"> 
+            <img src="static/imagens/contato-degrade-esquerdo.svg" alt="" class="contato-container-imagem2"
+                id="contato-degrade-esquerda">
             <div class="contato-container-items2 " id="contato-redes-sociais">
-                <div class="container-items2-telefone"> <img src="static/imagens/contato-icon-telefone.svg" alt="Icone de telefone" class="items2-telefone-icon"> (81) 3426-8978 </div>
-                <a href="http://" class="container-items2-email" target="_blank"><img src="static/imagens/contato-icon-email.svg" alt="Icone de Email" class="items2-email-icon"> pcdvale@gmail.com</a>
-                <a href="http://" class="container-items2-facebook" target="_blank">  <img src="static/imagens/contato-icon-facebook.svg" alt="Icone de Facebook" class="items2-facebook-icon"> /valePCD </a>
-                <a href="http://" class="container-items2-instagram" target="_blank"> <img src="static/imagens/contato-icon-instagram.svg" alt="Icone de Instagram" class="items2-instagram-icon"> @pcdvale </a>
-            </div></div>
-        
+                <div class="container-items2-telefone"> <img src="static/imagens/contato-icon-telefone.svg"
+                        alt="Icone de telefone" class="items2-telefone-icon"> (81) 3426-8978 </div>
+                <a href="http://" class="container-items2-email" target="_blank"><img
+                        src="static/imagens/contato-icon-email.svg" alt="Icone de Email" class="items2-email-icon">
+                    pcdvale@gmail.com</a>
+                <a href="http://" class="container-items2-facebook" target="_blank"> <img
+                        src="static/imagens/contato-icon-facebook.svg" alt="Icone de Facebook"
+                        class="items2-facebook-icon"> /valePCD </a>
+                <a href="http://" class="container-items2-instagram" target="_blank"> <img
+                        src="static/imagens/contato-icon-instagram.svg" alt="Icone de Instagram"
+                        class="items2-instagram-icon"> @pcdvale </a>
+            </div>
+        </div>
+
 
 
 
