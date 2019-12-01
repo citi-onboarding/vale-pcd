@@ -54,7 +54,7 @@ function dadosContato(){
         estiloFormulario.display = "none";
 
         estiloDegradeDireito.display = "none";
-        estiloDegradeEsquerdo.display = "flex";
+        estiloDegradeEsquerdo.display = "none";
         estiloContatoRedesSociais.display = "flex";
 
     }
