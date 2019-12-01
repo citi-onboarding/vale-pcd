@@ -371,7 +371,7 @@
     }
     .contato-items-mensagem {
         height: 90px;
-        width: 250px;
+        width: 60vw;
     }
     .contato-container-items {
         font-size: 1.4rem;
@@ -402,6 +402,16 @@
         visibility: visible;
         right: 17%;
         cursor:pointer;
+    }
+    .contato-items-botao:hover {
+        border: 2px solid #400080;
+        margin-top: 10px;
+        border-radius: 30px;
+        width: 120px;
+        height: 50px;
+        font-size: 1.5rem;
+        color: #400080;
+        /* font: Regular 34px/42px Damascus; */
     }
 }
 
