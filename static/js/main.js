@@ -96,7 +96,6 @@ function dadosContato() {
 //Ajustar responsividade
 window.addEventListener('resize', function () {
     let windowWidth = window.innerWidth;
-    console.log("width da tela:" + windowWidth);
 
     if (windowWidth > 800) {
         //Ajustar responsividade web
