@@ -103,6 +103,7 @@ window.addEventListener('resize', function () {
         //ajustar itens da esquerda
         document.querySelector('#contato-degrade-esquerda').style.display = "flex";
         document.querySelector("#contato-container-itemsesquerda").style.display = "flex";
+        document.querySelector(".contato-container").style.paddingTop = "80px";
 
         document.querySelector('#contato-degrade-direita').style.display = "flex";
         document.querySelector('#contato-redes-sociais').style.display = "flex";
