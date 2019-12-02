@@ -93,6 +93,7 @@ function dadosContato() {
 }
 
 
+//Ajustar responsividade
 window.addEventListener('resize', function () {
     let windowWidth = window.innerWidth;
     console.log("width da tela:" + windowWidth);
@@ -107,6 +108,12 @@ window.addEventListener('resize', function () {
         document.querySelector('#contato-redes-sociais').style.display = "flex";
         document.querySelector('#contact-form').style.display = "flex";
         document.querySelector('#contact-form').style.marginRight = "40%";
+
+        //Ajustar botão
+        document.querySelector(".container-items-seta").style.position = "";
+        document.querySelector(".container-items-seta").style.transform = "rotate(0deg)";
+        document.querySelector(".container-items-seta").style.left = "";
+
         contatoTelaAtual = "verde";
 
 
