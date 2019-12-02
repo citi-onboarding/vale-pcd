@@ -64,7 +64,7 @@ function dadosContato() {
         estiloBotao.position = "";
         estiloBotao.left = "";
         estiloBotao.transform = "rotate(0deg)";
-
+        estiloBotao.bottom = "";
         contatoTelaAtual = "verde";
 
 
@@ -72,7 +72,6 @@ function dadosContato() {
 
         //esconder formulário
         estiloFormulario.display = "none";
-
         estiloContatoContainer.paddingTop = "50px";
         estiloItemsEsquerda.width = "100vw";
         estiloItemsEsquerda.height = "76vh";
@@ -85,6 +84,7 @@ function dadosContato() {
         estiloBotao.position = "absolute";
         estiloBotao.transform = "rotate(180deg)";
         estiloBotao.left = "15vw";
+        estiloBotao.bottom = "19vh";
 
         contatoTelaAtual = "roxo";
 
@@ -123,10 +123,8 @@ window.addEventListener('resize', function () {
 
         if (contatoTelaAtual == "roxo") {
 
-
         } else {
             document.querySelector("#contato-container-itemsesquerda").style.display = "none";
-
         }
 
         document.querySelector('#contact-form').style.marginRight = "11%";
