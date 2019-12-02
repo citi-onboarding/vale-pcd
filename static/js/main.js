@@ -44,11 +44,15 @@ function dadosContato(){
    let estiloContatoRedesSociais =  document.querySelector('#contato-redes-sociais').style;
    let estiloItemsEsquerda = document.querySelector("#contato-container-itemsesquerda").style;
    let estiloContatoContainer = document.querySelector(".contato-container").style;
+   let estiloBotao = document.querySelector(".container-items-seta").style;
 
     if(estiloFormulario.display == "none"){ //formulário escondido
 
+        //mostrar formulário
         estiloFormulario.display = "flex";
+        //mostrar degradÊ direito
         estiloDegradeDireito.display = "flex";
+        //esconder degradê esquerdo e itens da esquerda
         estiloDegradeEsquerdo.display = "none";
         estiloContatoRedesSociais.display = "none";
         estiloItemsEsquerda.width = "0vw";
@@ -56,16 +60,29 @@ function dadosContato(){
         estiloContatoContainer.paddingTop = "80px";
         estiloItemsEsquerda.display = "none";
 
+        //Ajustar posição do botão
+        estiloBotao.position = "";
+        estiloBotao.left = "";
+        estiloBotao.transform =  "rotate(0deg)";
+
+
     }else{ // formulário à mostra
+
+        //esconder formulário
         estiloFormulario.display = "none";
 
         estiloContatoContainer.paddingTop = "50px";
-       /*  estiloItemsEsquerda.width = "100vw";
-        estiloItemsEsquerda.height = "76vh"; */
+        estiloItemsEsquerda.width = "100vw";
+        estiloItemsEsquerda.height = "76vh"; 
         estiloItemsEsquerda.display = "flex";
         estiloDegradeDireito.display = "none";
         estiloDegradeEsquerdo.display = "none";
         estiloContatoRedesSociais.display = "flex";
+
+        //Ajustar posição do botão
+        estiloBotao.position = "absolute";
+        estiloBotao.transform =  "rotate(180deg)";
+        estiloBotao.left = "15vw";
 
     }
 
