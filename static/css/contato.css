@@ -5,6 +5,10 @@
     flex-direction: column;
 }
 
+.contato-container-itemsesquerda {
+    /* display:none; */
+}
+
 .contato-container {
     display: flex;
     position: relative;
@@ -18,7 +22,7 @@
 
 .contato-container-itemsdireita {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .contato-container-items {
@@ -134,6 +138,7 @@
     z-index: -2;
     width: 56%;
     bottom: 0px;
+    display:flex;
 }
 
 .container-items-seta {
@@ -407,10 +412,4 @@
     }
 }
 
-@media (max-width:780px) {}
 
-@media (max-width:400px) {
-    .contato-container-itemsesquerda {
-        display: none;
-    }
-}
