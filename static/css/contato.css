@@ -138,7 +138,7 @@
     z-index: -2;
     width: 56%;
     bottom: 0px;
-    display:flex;
+    display: flex;
 }
 
 .container-items-seta {
@@ -273,7 +273,7 @@
     .container-items2-facebook {
         transform: translateY(-30px);
     }
-    .container-items2-instagram{
+    .container-items2-instagram {
         transform: translateY(-5px);
     }
     .contato-container-imagem2 {
@@ -335,6 +335,7 @@
         overflow: hidden;
         display: none;
         background-size: 105% 117%;
+        justify-content: center;
     }
     .contato-container-imagem2 {
         display: none;
@@ -355,7 +356,8 @@
         /*  margin-top: 70px; */
         z-index: 2;
         color: white;
-        margin-left: 25vw;
+        /*  margin-left: 25vw; */
+        margin-left: 0%;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
     }
     .contato-container {
@@ -377,7 +379,7 @@
     .contato-container-items {
         font-size: 1.4rem;
         color: white;
-         margin-bottom: 52px;
+        margin-bottom: 52px;
         margin-right: 2%;
     }
     .contato-items-botao {
@@ -414,5 +416,3 @@
         /* font: Regular 34px/42px Damascus; */
     }
 }
-
-
