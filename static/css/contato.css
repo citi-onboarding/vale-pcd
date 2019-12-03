@@ -265,13 +265,16 @@
         margin-right: 10px;
     }
     .container-items2-telefone {
-        transform: translateY(-60px);
+        transform: translateY(-80px);
     }
     .container-items2-email {
-        transform: translateY(-40px);
+        transform: translateY(-55px);
     }
     .container-items2-facebook {
-        transform: translateY(-20px);
+        transform: translateY(-30px);
+    }
+    .container-items2-instagram{
+        transform: translateY(-5px);
     }
     .contato-container-imagem2 {
         width: 72%;
