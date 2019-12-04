@@ -5,7 +5,6 @@ footer {
     height: 58px;
     color: white;
     font-size: 20px;
-    /*  font: Regular 28px/42px Sinhala Sangam MN; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -21,6 +20,7 @@ footer::any-link {
 
 .footer-texto {
     margin-right: 50px;
+    font-family: 'Barlow', sans-serif;
 }
 
 .footer-texto-coracao {
