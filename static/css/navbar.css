@@ -74,3 +74,22 @@
     width: 40px;
     height: 40px;
 }
+
+@media (max-width:900px){
+    .nav-backimage-image {
+        width: 130%;
+        height: 75px;
+    }
+
+    .nav-socialnetlinks-iconinsta {
+        left: 140px;
+    }
+
+    .nav-socialnetlinks-iconface {
+        left: 85px;
+    }
+
+    .nav-container-logo {
+        left: 25px;
+    }
+}
