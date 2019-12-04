@@ -5,7 +5,8 @@
 }
 
 .container-ilustracao {
-    background-image: url("../imagens/banner-ilustracao.svg");
+    display: flex;
+    justify-content: flex-end;
     background-size: cover;
     width: 107vh;
     height: 500px;
@@ -37,16 +38,16 @@
         width: 150vh;
     }
     .container-texto {
-       margin-left:20px;
+        margin-left: 20px;
     }
 }
 
-@media (max-width:800px){
-.container{
-    flex-direction: column-reverse;
-    justify-content: center;
-}
-.container-ilustracao{
-    height: 460px;
-}
+@media (max-width:800px) {
+    .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .container-ilustracao {
+        height: 460px;
+    }
 }
