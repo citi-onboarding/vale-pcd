@@ -7,6 +7,7 @@
 
 .contato-container-itemsesquerda {
     /* display:none; */
+    margin-top: 40px;
 }
 
 .contato-container {
@@ -31,7 +32,7 @@
     flex-direction: column;
     z-index: 4;
     color: white;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     margin-right: 13%;
 }
 
@@ -40,7 +41,7 @@
     display: flex;
     flex-direction: column;
     align-self: center;
-    margin-top: 190px;
+    margin-top: 290px;
     z-index: 2;
     color: white;
     margin-left: 5%;
@@ -202,7 +203,7 @@
 
 @media (max-width: 1250px) {
     .contato-container-items2 {
-        margin-top: 200px;
+        margin-top: 220px;
         color: white;
         margin-left: 12%;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
@@ -214,7 +215,7 @@
 
 @media (max-width: 1100px) {
     .contato-container-items2 {
-        margin-top: 200px;
+        margin-top: 230px;
         color: white;
         margin-left: 11%;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
@@ -229,7 +230,7 @@
 
 @media (max-width: 1000px) {
     .contato-container-items2 {
-        margin-top: 200px;
+        margin-top: 230px;
         color: white;
         margin-left: 11%;
         /*  font: Regular 30px/39px Malayalam Sangam MN; */
@@ -237,7 +238,7 @@
     .contato-container-items {
         /* font-size: 2rem; */
         color: white;
-        margin-bottom: 70px;
+        margin-bottom: 20px;
         margin-right: 7%;
     }
     .contato-container-imagem {
@@ -288,7 +289,7 @@
     .contato-container-items {
         /* font-size: 2rem; */
         color: white;
-        margin-bottom: 70px;
+        margin-bottom: 20px;
         margin-right: 7%;
     }
     .contato-container-imagem {
@@ -363,7 +364,7 @@
     .contato-container {
         justify-content: space-around;
         align-items: center;
-        padding-top: 50px;
+        /* padding-top: 50px; */
         flex-direction: row;
         /* padding-left: 20px; */
     }
@@ -379,7 +380,7 @@
     .contato-container-items {
         font-size: 1.4rem;
         color: white;
-        margin-bottom: 52px;
+        margin-bottom: 29px;
         margin-right: 2%;
     }
     .contato-items-botao {
