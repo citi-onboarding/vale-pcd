@@ -21,7 +21,9 @@
 }
 
 .container-texto {
-    transform: translateY(48px);
+    display: flex;
+    align-self: center;
+    flex-direction: column;
 }
 
 .container-texto-descricao {
@@ -38,4 +40,14 @@
     .container-texto {
        margin-left:20px;
     }
+}
+
+@media (max-width:800px){
+.container{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.container-ilustracao{
+    height: 460px;
+}
 }
