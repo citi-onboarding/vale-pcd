@@ -1,33 +1,41 @@
-.container{
+.container {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-
-}
-.container-ilustracao{
-background-image: url("../imagens/banner-ilustracao.svg");
-background-size: cover;
-width: 107vh;
-height: 500px;
-
 }
 
-.container-texto-titulo{
-    display:flex;
+.container-ilustracao {
+    background-image: url("../imagens/banner-ilustracao.svg");
+    background-size: cover;
+    width: 107vh;
+    height: 500px;
+}
+
+.container-texto-titulo {
+    display: flex;
     justify-content: center;
     font-family: 'Barlow', sans-serif;
     font-size: 3rem;
-    color:#86007D;
+    color: #86007D;
     align-self: center;
 }
 
-.container-texto{
+.container-texto {
     transform: translateY(48px);
 }
-.container-texto-descricao{
+
+.container-texto-descricao {
     font-family: 'Hind Madurai', sans-serif;
     font-size: 1rem;
-    color:black;
+    color: black;
     text-align: center;
+}
 
+@media (max-width:900px) {
+    .container-ilustracao {
+        width: 150vh;
+    }
+    .container-texto {
+       margin-left:20px;
+    }
 }
