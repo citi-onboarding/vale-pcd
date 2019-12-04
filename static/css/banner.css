@@ -33,14 +33,6 @@
     text-align: center;
 }
 
-@media (max-width:900px) {
-    .container-ilustracao {
-        width: 150vh;
-    }
-    .container-texto {
-        margin-left: 20px;
-    }
-}
 
 @media (max-width:800px) {
     .container {
@@ -48,6 +40,6 @@
         justify-content: center;
     }
     .container-ilustracao {
-        height: 460px;
+      align-self: center;
     }
 }
