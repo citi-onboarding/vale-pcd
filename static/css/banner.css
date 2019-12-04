@@ -22,7 +22,6 @@
 
 .container-texto {
     display: flex;
-    align-self: center;
     flex-direction: column;
 }
 
