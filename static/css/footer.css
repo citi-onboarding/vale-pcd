@@ -1,0 +1,40 @@
+footer {
+    background: #86007D 0% 0% no-repeat padding-box;
+    bottom: 0px;
+    z-index: 3;
+    width: 100%;
+    height: 58px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    /*  font: Regular 28px/42px Sinhala Sangam MN; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer::any-link {
+    color: white;
+}
+
+.footer-texto {
+    margin-right: 50px;
+}
+
+.footer-texto-coracao {
+    height: 16px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        font-size: 14px;
+        height: 45px;
+    }
+    .footer-texto-coracao {
+        height: 10px;
+    }
+}
