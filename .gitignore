@@ -3,9 +3,8 @@
 *.pyc
 /media
 /db.sqlite3
-
+valePcd/.env
 ### VSCode ###
 .vscode
-
 ### Variáveis ###
 valePcd/*.env
