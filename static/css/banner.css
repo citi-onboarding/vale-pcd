@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+}
+.container-ilustracao{
+background-image: url("../imagens/banner-ilustracao.svg");
+background-size: cover;
+width: 107vh;
+height: 500px;
+
+}
