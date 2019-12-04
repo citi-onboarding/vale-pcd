@@ -41,5 +41,6 @@
     }
     .container-ilustracao {
       align-self: center;
+      width: 75%;
     }
 }
