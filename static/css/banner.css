@@ -8,8 +8,8 @@
     display: flex;
     justify-content: flex-end;
     background-size: cover;
-    width: 107vh;
-    height: 500px;
+    width: 50%;
+    /* height: 500px; */
 }
 
 .container-texto-titulo {
