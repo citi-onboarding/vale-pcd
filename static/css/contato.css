@@ -34,6 +34,7 @@
     color: white;
     margin-bottom: 20px;
     margin-right: 13%;
+    font-family: 'Barlow', sans-serif;
 }
 
 .contato-container-items2 {
@@ -45,6 +46,7 @@
     z-index: 2;
     color: white;
     margin-left: 5%;
+    font-family: 'Barlow', sans-serif;
     /* visibility: visible; */
     /*  font: Regular 30px/39px Malayalam Sangam MN; */
 }
@@ -66,6 +68,7 @@
     color: white;
     display: inline-block;
     font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
     /* font: Regular 34px/42px Damascus; */
 }
 
@@ -81,6 +84,7 @@
     color: #400080;
     display: inline-block;
     font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
     /* font: Regular 34px/42px Damascus; */
 }
 
@@ -106,7 +110,7 @@
 
 .contato-titulo-item {
     font-size: 3.0rem;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
 }
 
 .contato-titulo-imagem {
