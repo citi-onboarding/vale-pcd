@@ -11,3 +11,23 @@ width: 107vh;
 height: 500px;
 
 }
+
+.container-texto-titulo{
+    display:flex;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 3rem;
+    color:#86007D;
+    align-self: center;
+}
+
+.container-texto{
+    transform: translateY(48px);
+}
+.container-texto-descricao{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 1rem;
+    color:black;
+    text-align: center;
+
+}
