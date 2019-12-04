@@ -65,6 +65,7 @@ function dadosContato() {
         estiloBotao.left = "";
         estiloBotao.transform = "rotate(0deg)";
         estiloBotao.bottom = "";
+        estiloBotao.marginLeft = "-80px";
         contatoTelaAtual = "verde";
 
 
@@ -85,7 +86,7 @@ function dadosContato() {
         estiloBotao.transform = "rotate(180deg)";
         estiloBotao.left = "15vw";
         estiloBotao.bottom = "19vh";
-
+        estiloBotao.marginLeft = "-40px";
         contatoTelaAtual = "roxo";
 
     }
