@@ -102,11 +102,11 @@
     justify-content: center;
     align-self: center;
     color: #86007D;
-    /* font: Regular 60px/88px Sinhala Sangam MN; */
 }
 
 .contato-titulo-item {
-    font-size: 3.0rem
+    font-size: 3.0rem;
+    font-family: 'Barlow';
 }
 
 .contato-titulo-imagem {
@@ -242,7 +242,7 @@
         margin-right: 7%;
     }
     .contato-container-imagem {
-        height: 680px;
+        height: 620px;
         width: 67%;
     }
     .items2-telefone-icon {
@@ -293,7 +293,7 @@
         margin-right: 7%;
     }
     .contato-container-imagem {
-        height: 641px;
+        height: 620px;
         width: 67%;
     }
     .items2-telefone-icon {
