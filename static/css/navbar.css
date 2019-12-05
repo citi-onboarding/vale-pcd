@@ -124,9 +124,10 @@ display:none;
 
     .container-socialnetlinks-menuhamburguer {
         position: absolute;
-        left: 150px;
-        top: 13px;
+        left: 153px;
+        top: 15px;
         display: flex;
+        width: 33px;
     }
 
     .nav {
