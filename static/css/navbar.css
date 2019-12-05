@@ -14,9 +14,10 @@
     left: 60px;
 }
 .nav-link-imagelogopcd{
-    width: 180px;
-    height: 50px;
+    width: 156px;
+    height: 43px;
 }
+
 .nav-container-sections{
     list-style-type: none;
     position: relative;
@@ -109,8 +110,13 @@ display:none;
         display:none;
     }
 
+    .nav-socialnetlinks-backimage {
+        width: 194px;
+    }
+
     .nav-backimage-image {
-        width: 181%;
+        width: 195%;
+        height: 55px;
     }
     .nav-container-sections {
        display:none;
@@ -118,9 +124,22 @@ display:none;
 
     .container-socialnetlinks-menuhamburguer {
         position: absolute;
-        left: 141px;
-        top: 22px;
+        left: 150px;
+        top: 13px;
         display: flex;
+    }
+
+    .nav {
+        height: 55px;
+    }
+
+    .nav-container-logo {
+        left: 20px;
+    }
+
+    .nav-link-imagelogopcd {
+        width: 121px;
+        height: 34px;
     }
 
 }
