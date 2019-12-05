@@ -43,7 +43,7 @@
     display: flex;
 }
 
-.container-socialnetlinks-menuhamburguer{
+.container-socialnetlinks-menuhamburger{
 display:none;
 
 }
@@ -122,7 +122,7 @@ display:none;
        display:none;
     }
 
-    .container-socialnetlinks-menuhamburguer {
+    .container-socialnetlinks-menuhamburger {
         position: absolute;
         left: 153px;
         top: 15px;
