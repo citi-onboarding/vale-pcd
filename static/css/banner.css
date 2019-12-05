@@ -3,13 +3,13 @@ header{
     height: 114vh;
     align-items: center;
     justify-content: center;
-    max-width: 1025px;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
+    max-width: 1025px;
 }
 
 .container-ilustracao {
