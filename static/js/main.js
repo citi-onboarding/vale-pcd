@@ -1,6 +1,4 @@
 $('#contact-form').submit(function (e) {
-
-
     document.getElementById("enviar").innerHTML = 'Enviando Mensagem';
 
 
@@ -51,3 +49,20 @@ function dadosContato() {
         document.querySelector("#seta-contato").classList.remove("container-items-seta-roxa");
     }
 }
+
+function menuHamburger() {
+
+    if (document.querySelector("#nav-open").offsetHeight == 0) {// navbar fechada
+        document.querySelector("#nav-open").classList.remove("nav-open-none");
+    } else {
+        document.querySelector("#nav-open").classList.add("nav-open-none");
+    }
+}
+
+var $doc = $('html, body');
+$('.scrollSuave').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});

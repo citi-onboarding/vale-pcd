@@ -1,8 +1,9 @@
 {% load static %}
 
-<nav class="nav">
+<nav class="nav scrollSuave">
     <div class="nav-container-logo">
-        <a class="nav-logo-link" href="#home"><img class="nav-link-imagelogopcd" src="/static/img/Logotipo colorido horizontal 2.png" alt="Logotipo PCD"></a>
+        <a class="nav-logo-link" href="#home"><img class="nav-link-imagelogopcd"
+                src="{% static 'img/Logotipo colorido horizontal 2.png' %}" alt="Logotipo PCD"></a>
     </div>
     <ul class="nav-container-sections">
         <li class="nav-sections-linksection"><a class="nav-linksection-a" href="#quemsomos">Quem somos?</a></li>
@@ -10,9 +11,38 @@
         <li class="nav-sections-linksection"><a class="nav-linksection-a" href="#contato">Contato</a></li>
     </ul>
     <ul class="nav-container-socialnetlinks">
-            <li class="nav-socialnetlinks-iconface"><a class="nav-icon-link" href="https://www.facebook.com"><img class="nav-link-iconface" src="/static/img/facebook-logo.svg" alt="Facebook logo"></a></li>
-            <li class="nav-socialnetlinks-iconinsta"><a class="nav-icon-link" href="https://www.instagram.com"><img class="nav-link-iconinsta" src="/static/img/final.svg" alt="Instagram logo"></a></li>
-            <li class="nav-socialnetlinks-backimage"><img class="nav-backimage-image" src="/static/img/Caminho_98.svg" alt="Asset"</li>
-            <img src="/static/img/list-menu.svg" alt="" class="container-socialnetlinks-menuhamburger" onclick="menuHamburger()">
+        <li class="nav-socialnetlinks-iconface"><a class="nav-icon-link" href="https://www.facebook.com"><img
+                    class="nav-link-iconface" src="{% static 'img/facebook-logo.svg' %}" alt="Facebook logo"></a></li>
+        <li class="nav-socialnetlinks-iconinsta"><a class="nav-icon-link" href="https://www.instagram.com"><img
+                    class="nav-link-iconinsta" src="{% static 'img/final.svg' %}" alt="Instagram logo"></a></li>
+        <li class="nav-socialnetlinks-backimage"><img class="nav-backimage-image" src="{% static 'img/Caminho_98.svg' %}"
+                alt="Asset" </li> <img src="{% static 'img/list-menu.svg' %}" alt=""
+                class="container-socialnetlinks-menuhamburger" onclick="menuHamburger()">
     </ul>
+</nav>
+
+<nav class="nav-open nav-open-none" id="nav-open">
+    <div class="nav-open-exit">
+        <button class="open-exit-button" onclick="menuHamburger()">
+            <img src="{% static 'img/saida.svg' %}" alt="Botão de saída da navbar" >
+        </button>
+    </div>
+
+    <div class="nav-open-logo">
+    </div>
+
+    <ul class="nav-open-links">
+        <li class="open-links-link1">
+            <a href=""> O que é o Vale</a>
+        </li>
+        <li class="open-links-link2">
+            <a href="">Relatos</a>
+        </li>
+        <li class="open-links-link3">
+            <a href="">Fale conosco</a>
+        </li>
+    </ul>
+
+    <div class="nav-open-footer"></div>
+
 </nav>
