@@ -1,8 +1,9 @@
 header{
     display: flex;
-    height: 100vh;
+    height: 114vh;
     align-items: center;
     justify-content: center;
+    max-width: 1025px;
 }
 
 .container {
@@ -51,7 +52,7 @@ header{
     }
     .container-ilustracao {
       align-self: center;
-      width: 75%;
+      width: 60%;
     }
     .container-texto-descricao{
         align-self: center;
