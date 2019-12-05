@@ -59,3 +59,11 @@ header{
         align-self: center;
     }
 }
+
+@media (max-width:500px){
+    .container-ilustracao {
+        width: 75%;
+      }
+
+
+}
