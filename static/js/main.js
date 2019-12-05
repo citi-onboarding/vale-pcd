@@ -35,103 +35,19 @@ $('#contact-form').submit(function (e) {
 
 });
 
-var contatoTelaAtual = "verde";
 function dadosContato() {
-    /*  document.getElementById('id1').style.color */
-    let estiloFormulario = document.querySelector('#contact-form').style;
-    let estiloDegradeEsquerdo = document.querySelector('#contato-degrade-esquerda').style;
-    let estiloDegradeDireito = document.querySelector('#contato-degrade-direita').style;
-    let estiloContatoRedesSociais = document.querySelector('#contato-redes-sociais').style;
-    let estiloItemsEsquerda = document.querySelector("#contato-container-itemsesquerda").style;
-    let estiloContatoContainer = document.querySelector(".contato-container").style;
-    let estiloBotao = document.querySelector(".container-items-seta").style;
 
-    if (estiloFormulario.display == "none") { //formulário escondido
-
-        //mostrar formulário
-        estiloFormulario.display = "flex";
-        //mostrar degradÊ direito
-        estiloDegradeDireito.display = "flex";
-        //esconder degradê esquerdo e itens da esquerda
-        estiloDegradeEsquerdo.display = "none";
-        estiloContatoRedesSociais.display = "none";
-        estiloItemsEsquerda.width = "0vw";
-        estiloItemsEsquerda.heigth = "0vh";
-        estiloContatoContainer.paddingTop = "80px";
-        estiloItemsEsquerda.display = "none";
-
-        //Ajustar posição do botão
-        estiloBotao.position = "";
-        estiloBotao.left = "";
-        estiloBotao.transform = "rotate(0deg)";
-        estiloBotao.bottom = "";
-        estiloBotao.marginLeft = "-80px";
-        contatoTelaAtual = "verde";
-
-
-    } else { // formulário à mostra
-
-        //esconder formulário
-        estiloFormulario.display = "none";
-        estiloContatoContainer.paddingTop = "50px";
-        estiloItemsEsquerda.width = "100vw";
-        estiloItemsEsquerda.height = "76vh";
-        estiloItemsEsquerda.display = "flex";
-        estiloDegradeDireito.display = "none";
-        estiloDegradeEsquerdo.display = "none";
-        estiloContatoRedesSociais.display = "flex";
-
-        //Ajustar posição do botão
-        estiloBotao.position = "absolute";
-        estiloBotao.transform = "rotate(180deg)";
-        estiloBotao.left = "15vw";
-        estiloBotao.bottom = "19vh";
-        estiloBotao.marginLeft = "-40px";
-        contatoTelaAtual = "roxo";
-
+    if (document.querySelector(".contato-container-itemsdireita").offsetHeight != 0) {
+        document.querySelector("#contact-form").classList.add("display-none");
+        document.querySelector(".contato-container-itemsdireita").classList.add("display-none");
+        document.querySelector(".contato-container-itemsesquerda").classList.remove("display-none");
+        document.querySelector(".contato-container-items2").classList.remove("display-none");
+        document.querySelector("#seta-contato").classList.add("container-items-seta-roxa");
+    } else {
+        document.querySelector("#contact-form").classList.remove("display-none");
+        document.querySelector(".contato-container-itemsdireita").classList.remove("display-none");
+        document.querySelector(".contato-container-itemsesquerda").classList.add("display-none");
+        document.querySelector(".contato-container-items2").classList.add("display-none");
+        document.querySelector("#seta-contato").classList.remove("container-items-seta-roxa");
     }
-
 }
-
-
-//Ajustar responsividade
-window.addEventListener('resize', function () {
-    let windowWidth = window.innerWidth;
-
-    if (windowWidth > 800) {
-        //Ajustar responsividade web
-        //ajustar itens da esquerda
-        document.querySelector('#contato-degrade-esquerda').style.display = "flex";
-        document.querySelector("#contato-container-itemsesquerda").style.display = "flex";
-        document.querySelector(".contato-container").style.paddingTop = "80px";
-
-        document.querySelector('#contato-degrade-direita').style.display = "flex";
-        document.querySelector('#contato-redes-sociais').style.display = "flex";
-        document.querySelector('#contact-form').style.display = "flex";
-        document.querySelector('#contact-form').style.marginRight = "40%";
-
-        //Ajustar botão
-        document.querySelector(".container-items-seta").style.position = "";
-        document.querySelector(".container-items-seta").style.transform = "rotate(0deg)";
-        document.querySelector(".container-items-seta").style.left = "";
-
-        contatoTelaAtual = "verde";
-
-
-    } else { //ajustar responsividade mobile
-        //escondendo itens da esquerda
-        document.querySelector('#contato-degrade-esquerda').style.display = "none";
-
-        if (contatoTelaAtual == "roxo") {
-
-        } else {
-            document.querySelector("#contato-container-itemsesquerda").style.display = "none";
-        }
-
-        document.querySelector('#contact-form').style.marginRight = "11%";
-        document.querySelector("#contato-container-itemsesquerda").style.width = "";
-        document.querySelector("#contato-container-itemsesquerda").style.height = "";
-
-
-    }
-});

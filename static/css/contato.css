@@ -5,101 +5,7 @@
     flex-direction: column;
 }
 
-.contato-container-itemsesquerda {
-    /* display:none; */
-    margin-top: 40px;
-}
-
-.contato-container {
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    /* align-items: center; */
-    padding-top: 80px;
-    /* width: 100vh;
-    height: 100vw; */
-}
-
-.contato-container-itemsdireita {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contato-container-items {
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    z-index: 4;
-    color: white;
-    margin-bottom: 20px;
-    margin-right: 13%;
-    font-family: 'Barlow', sans-serif;
-}
-
-.contato-container-items2 {
-    font-size: 1.8rem;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin-top: 290px;
-    z-index: 2;
-    color: white;
-    margin-left: 5%;
-    font-family: 'Barlow', sans-serif;
-    /* visibility: visible; */
-    /*  font: Regular 30px/39px Malayalam Sangam MN; */
-}
-
-.contato-items-label {
-    padding-top: 8px;
-    padding-bottom: 5px;
-}
-
-.contato-items-botao {
-    align-self: center;
-    background: transparent;
-    border: 2px solid #FFFFFF;
-    margin-top: 30px;
-    border-radius: 30px;
-    width: 150px;
-    height: 60px;
-    text-align: center;
-    color: white;
-    display: inline-block;
-    font-size: 1.5rem;
-    font-family: 'Barlow', sans-serif;
-    /* font: Regular 34px/42px Damascus; */
-}
-
-.contato-items-botao:hover {
-    align-self: center;
-    background: transparent;
-    border: 2px solid #400080;
-    margin-top: 30px;
-    border-radius: 30px;
-    width: 150px;
-    height: 60px;
-    text-align: center;
-    color: #400080;
-    display: inline-block;
-    font-size: 1.5rem;
-    font-family: 'Barlow', sans-serif;
-    /* font: Regular 34px/42px Damascus; */
-}
-
-.contato-items-input {
-    background: transparent;
-    border: 2px solid #FFFFFF;
-    border-radius: 15px;
-    padding-top: 10px;
-    height: 15px;
-}
-
-.contato-items-mensagem {
-    height: 130px;
-    width: 300px;
-}
+.contato-container {}
 
 .contato-titulo {
     display: flex;
@@ -121,33 +27,91 @@
 
 /* degradê da direita  */
 
-.contato-container-imagem {
-    right: 0;
-    /* padding-bottom: 150px; */
+.contato-container-itemsdireita {
+    width: 68%;
+    height: 590px;
     position: absolute;
-    height: 616px;
-    opacity: 100%;
-    z-index: -1;
-    width: 67%;
+    right: 0;
     bottom: 0;
+    z-index: 2;
 }
 
-/* degradê da esquerda  */
+.contato-container-imagem {
+    width: 100%;
+    height: 100%;
+}
 
-.contato-container-imagem2 {
-    left: 0;
-    /* padding-bottom: 150px; */
+/* forms */
+
+.contato-container-items {
     position: absolute;
-    /* height: 560px; */
-    opacity: 100%;
-    z-index: -2;
-    width: 56%;
-    bottom: 0px;
+    right: 0;
+    bottom: 0;
+    font-size: 2rem;
     display: flex;
+    flex-direction: column;
+    z-index: 2;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 13%;
+    font-family: 'Barlow', sans-serif;
+}
+
+.contato-items-label {
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+.contato-items-botao {
+    align-self: center;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.contato-items-botao:hover {
+    border: 2px solid #400080;
+    color: #400080;
+}
+
+.contato-items-input {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    padding-top: 10px;
+    height: 15px;
+}
+
+.contato-items-mensagem {
+    height: 130px;
+    width: 300px;
 }
 
 .container-items-seta {
-    visibility: hidden;
+    display: none;
+}
+
+.contato-container-itemsesquerda {
+    width: 78%;
+    height: 60%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-image: url(../imagens/contato-degrade-esquerdo.svg);
+    background-size: 78%;
+    background-repeat: no-repeat;
+}
+
+.contato-container-imagem2 {
+    height: 100%;
 }
 
 .container-items2-telefone {
@@ -205,219 +169,70 @@
     margin-right: 10px;
 }
 
-@media (max-width: 1250px) {
-    .contato-container-items2 {
-        margin-top: 220px;
-        color: white;
-        margin-left: 12%;
-        /*  font: Regular 30px/39px Malayalam Sangam MN; */
-    }
-    .container-items-seta {
-        visibility: hidden;
-    }
+.contato-container-items2 {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    position: absolute;
+    bottom: 50px;
+    left: 75px;
+    z-index: 2;
+    color: white;
+    margin-left: 5%;
+    font-family: 'Barlow', sans-serif;
 }
 
-@media (max-width: 1100px) {
-    .contato-container-items2 {
-        margin-top: 230px;
-        color: white;
-        margin-left: 11%;
-        /*  font: Regular 30px/39px Malayalam Sangam MN; */
-    }
-    .contato-container-imagem2 {
-        width: 68%;
-    }
-    .container-items-seta {
-        visibility: hidden;
-    }
-}
-
-@media (max-width: 1000px) {
-    .contato-container-items2 {
-        margin-top: 230px;
-        color: white;
-        margin-left: 11%;
-        /*  font: Regular 30px/39px Malayalam Sangam MN; */
-    }
-    .contato-container-items {
-        /* font-size: 2rem; */
-        color: white;
-        margin-bottom: 20px;
-        margin-right: 7%;
-    }
-    .contato-container-imagem {
-        height: 620px;
-        width: 67%;
-    }
-    .items2-telefone-icon {
-        width: 20px;
-        height: 18px;
-        margin-right: 10px;
-    }
-    .items2-email-icon {
-        width: 28px;
-        height: 24px;
-        margin-right: 10px;
-    }
-    .items2-facebook-icon {
-        width: 28px;
-        height: 28px;
-        margin-right: 10px;
-    }
-    .items2-instagram-icon {
-        width: 28px;
-        height: 28px;
-        margin-right: 10px;
-    }
-    .container-items2-telefone {
-        transform: translateY(-80px);
-    }
-    .container-items2-email {
-        transform: translateY(-55px);
-    }
-    .container-items2-facebook {
-        transform: translateY(-30px);
-    }
-    .container-items2-instagram {
-        transform: translateY(-5px);
-    }
-    .contato-container-imagem2 {
-        width: 72%;
-    }
-    .container-items-seta {
-        visibility: hidden;
-    }
-}
-
-@media (max-width: 950px) {
-    .contato-container-items {
-        /* font-size: 2rem; */
-        color: white;
-        margin-bottom: 20px;
-        margin-right: 7%;
-    }
-    .contato-container-imagem {
-        height: 620px;
-        width: 67%;
-    }
-    .items2-telefone-icon {
-        width: 20px;
-        height: 18px;
-        margin-right: 10px;
-    }
-    .items2-email-icon {
-        width: 28px;
-        height: 24px;
-        margin-right: 10px;
-    }
-    .items2-facebook-icon {
-        width: 28px;
-        height: 28px;
-        margin-right: 10px;
-    }
-    .items2-instagram-icon {
-        width: 28px;
-        height: 28px;
-        margin-right: 10px;
-    }
-    .contato-container-imagem2 {
-        width: 85%;
-    }
-    .container-items-seta {
-        visibility: hidden;
+@media (max-width:1024px) {
+    .contato-container-itemsesquerda {
+        width: 90%;
+        height: 55%;
     }
 }
 
 @media (max-width:800px) {
     .contato-container-itemsesquerda {
-        position: relative;
-        background-image: url("../imagens/contato-degrade1-esquerda.svg");
-        background-size: 105% 117%;
-        background-repeat: no-repeat;
-        background-position-y: bottom;
-        width: 100vw;
-        height: 76vh;
-        overflow: hidden;
-        display: none;
-        background-size: 105% 117%;
-        justify-content: center;
-    }
-    .contato-container-imagem2 {
-        display: none;
-    }
-    .contato-container-imagem {
-        /* padding-bottom: 150px; */
-        position: absolute;
-        height: 500px;
-        opacity: 100%;
-        z-index: -1;
-        width: 120%;
-        bottom: 0;
+        width: 100%;
+        height: 84%;
+        background-size: 145%;
     }
     .contato-container-items2 {
-        /* itens da esquerda (instagram..) */
-        font-size: 1.8rem;
-        display: none;
-        /*  margin-top: 70px; */
-        z-index: 2;
-        color: white;
-        /*  margin-left: 25vw; */
-        margin-left: 0%;
-        /*  font: Regular 30px/39px Malayalam Sangam MN; */
+        justify-content: space-between;
+        height: 31%;
+        bottom: 100px;
+        left: 160px;
     }
-    .contato-container {
-        justify-content: space-around;
-        align-items: center;
-        /* padding-top: 50px; */
-        flex-direction: row;
-        /* padding-left: 20px; */
-    }
-    .contato-items-input {
-        border-radius: 15px;
-        padding-top: 6px;
-        height: 17px;
-    }
-    .contato-items-mensagem {
-        height: 90px;
-        width: 60vw;
-    }
-    .contato-container-items {
-        font-size: 1.4rem;
-        color: white;
-        margin-bottom: 29px;
-        margin-right: 2%;
-    }
-    .contato-items-botao {
-        margin-top: 10px;
-        border-radius: 30px;
-        width: 120px;
-        height: 50px;
-        font-size: 1.5rem;
-        /* font: Regular 34px/42px Damascus; */
-    }
-    .contato-titulo-item {
-        font-size: 2.4rem
+    .contato-container-itemsdireita {
+        width: 115%;
     }
     .container-items-seta {
-        display: flex;
-        align-self: center;
-        width: 42px;
-        height: 37px;
-        z-index: 3;
-        margin-bottom: 60px;
-        margin-left: -80px;
-        visibility: visible;
-        right: 17%;
-        cursor: pointer;
+        display: block;
+        position: absolute;
+        right: 6%;
+        bottom: 280px;
+        z-index: 2;
     }
-    .contato-items-botao:hover {
-        border: 2px solid #400080;
-        margin-top: 10px;
-        border-radius: 30px;
-        width: 120px;
-        height: 50px;
-        font-size: 1.5rem;
-        color: #400080;
-        /* font: Regular 34px/42px Damascus; */
+    .container-items-seta-roxa {
+        right: 0;
+        left: 6%;
+        transform: rotate(180deg);
+    }
+    .contato-container-items {
+        left: 0;
+        margin-left: 10%;
+    }
+    .contato-items-mensagem {
+        width: unset;
+    }
+
+    .display-none {
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+
+    .contato-container-items{
+        margin-right: 20%;
     }
 }
