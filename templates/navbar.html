@@ -1,14 +1,14 @@
 {% load static %}
 
-<nav class="nav scrollSuave">
+<nav class="nav">
     <div class="nav-container-logo">
         <a class="nav-logo-link" href="#home"><img class="nav-link-imagelogopcd"
                 src="{% static 'img/Logotipo colorido horizontal 2.png' %}" alt="Logotipo PCD"></a>
     </div>
     <ul class="nav-container-sections">
-        <li class="nav-sections-linksection"><a class="nav-linksection-a" href="#quemsomos">Quem somos?</a></li>
-        <li class="nav-sections-linksection"><a class="nav-linksection-a" href="#relatos">Relatos</a></li>
-        <li class="nav-sections-linksection"><a class="nav-linksection-a" href="#contato">Contato</a></li>
+        <li class="nav-sections-linksection"><a class="nav-linksection-a scrollSuave" href="#quemsomos">Quem somos?</a></li>
+        <li class="nav-sections-linksection"><a class="nav-linksection-a scrollSuave" href="#relatos">Relatos</a></li>
+        <li class="nav-sections-linksection"><a class="nav-linksection-a scrollSuave" href=".contato">Contato</a></li>
     </ul>
     <ul class="nav-container-socialnetlinks">
         <li class="nav-socialnetlinks-iconface"><a class="nav-icon-link" href="https://www.facebook.com"><img
@@ -33,13 +33,13 @@
 
     <ul class="nav-open-links">
         <li class="open-links-link1">
-            <a href=""> O que é o Vale</a>
+            <a href="" class="scrollSuave"> O que é o Vale</a>
         </li>
         <li class="open-links-link2">
-            <a href="">Relatos</a>
+            <a href="" class="scrollSuave">Relatos</a>
         </li>
         <li class="open-links-link3">
-            <a href="">Fale conosco</a>
+            <a href=".contato" class="scrollSuave">Fale conosco</a>
         </li>
     </ul>
 
