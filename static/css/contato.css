@@ -4,6 +4,7 @@
     height: 599px;
     justify-content: space-around;
     flex-direction: column;
+    padding-top: 65px;
 }
 
 .contato-container {
