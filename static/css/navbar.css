@@ -41,6 +41,11 @@
     margin: 0;
     display: flex;
 }
+
+.container-socialnetlinks-menuhamburguer{
+display:none;
+
+}
 .nav-socialnetlinks-iconface{
     height: 35px;
     width: 35px;
@@ -92,4 +97,30 @@
     .nav-container-logo {
         left: 25px;
     }
+}
+
+@media (max-width:800px){
+
+    .nav-socialnetlinks-iconface {
+        display:none;
+    }
+
+    .nav-socialnetlinks-iconinsta {
+        display:none;
+    }
+
+    .nav-backimage-image {
+        width: 181%;
+    }
+    .nav-container-sections {
+       display:none;
+    }
+
+    .container-socialnetlinks-menuhamburguer {
+        position: absolute;
+        left: 141px;
+        top: 22px;
+        display: flex;
+    }
+
 }
